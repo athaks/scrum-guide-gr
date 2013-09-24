@@ -38,12 +38,13 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Διαφάνεια
 
-Significant aspects of the process must be visible to those responsible for the outcome. Transparency requires those aspects be defined by a common standard so observers share a common understanding of what is being seen.
+Σημαντικές απόψεις (aspects) της διαδικασίας πρέπει να είναι διαθέσιμες και ορατές στους υπεύθυνους για το αποτέλεμα. Η διαφάνεια απειτεί αυτές οι απόψεις να είναι ορισμένες σε ένα κοινό πρότυπο (standard) ώστε οι παρατηρητές να έχουν κοινή κατανόηση του τι φαίνεται.
 
-For example:
+Για παράδειγμα:
 
-A common language referring to the process must be shared by all participants; and,
-Those performing the work and those accepting the work product must share a common definition of "Done".
+Μια γλώσσα αναφοράς της διαδικασίας πρέπει να είναι κοινή για όλους τους συμμετάσχοντες.
+
+Οι παράγοντες της εργασία και οι αποδέκτες του αποτελέσματός της πρέπει να έχουν κοινό ορισμό του “γινωμένου”.
 
 Επιθεώρηση
 
