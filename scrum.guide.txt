@@ -10,7 +10,7 @@
 
 Ο στόχος του Οδηγού του Scrum
 
-Το Scrum είναι ένα εργασιακό πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προϊόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), ΧΧΧΧΧΧΧΧΧ (artifacts) και από τους κανόνες (rules) που τα συνδέουν. Ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum· Ο Οδηγός του Scrum γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
+Το Scrum είναι ένα εργασιακό πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προϊόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), αντικείμενα (artifacts) και από τους κανόνες (rules) που τα συνδέουν. Ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum· Ο Οδηγός του Scrum γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
 
 Ο ορισμός του Scrum
 
@@ -23,11 +23,11 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Το Scrum είναι ένα εργασιακό πλαίσιο διαδικασιών που έχει χρησιμοποιηθεί για την διαχείριση ανάπτυξης περίπλοκων προϊόντων από τις αρχές της δεκαετίας του 1990. Το Scrum δεν είναι μια διαδικασία η μια τεχνική κατασκευής προϊόντων· είναι ένα εργασιακό πλαίσιο μέσα στο οποίο μπορούμε να μεταχειριστούμε διάφορες διαδικασίες και τεχνικές. Το Scrum καθιστά σαφή την σχετική αποδοτικότητα των πρακτικών προϊοντικής διαχείρισης και ανάπτυξής σας, ώστε να βελτιωθείτε.
 
-The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage.
+Το πλαίσιο Scrum αποτελείται από ομάδες (Scrum Teams) τους συνδεδεμένους με αυτούς ρόλους (roles), συμβάντα (events) και κανόνες (rules). Κάθε μέρος (component) εντός του πλαισίου εξυπηρετεί συγκεκριμένο σκοπό και είναι  ουσιώδες για την χρήση και την επιτυχία του Scrum.
 
-The rules of Scrum bind together the events, roles, and artifacts, governing the relationships and interaction between them. The rules of Scrum are described throughout the body of this document.
+Οι ρόλοι του Scrum διασυνδέσουν τα συμβάντα, τους ρόλους και τα αντικείμενα, και διέπουν τις μεταξύ τους σχέσεις και τις αλληλεπιδράσεις. Οι ρόλοι του Scrum περιγράφονται καθ' όλη την έκταση αυτού του κειμένου.
 
-Specific tactics for using the Scrum framework vary and are described elsewhere.
+Συγκεκριμένες τακτικές χρήσεις του πλαισίου Scrum ποικίλουν και περιγράφονται σε άλλα κείμενα.
 
 Scrum Theory
 
