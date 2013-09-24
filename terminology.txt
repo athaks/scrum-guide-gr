@@ -1,0 +1,12 @@
+Definitive  καθοριστικός
+Scrum
+Scrum Guide   Οδηγός του Scrum
+framework   πλαίσιο
+roles
+events
+artifacts
+rules
+framework
+process
+sprint
+
