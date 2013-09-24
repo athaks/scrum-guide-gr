@@ -16,3 +16,7 @@ adaptation    προσαρμογή
 "done"        γινωμένο
 sprint
 goal          στόχος
+planning      σχεδιασμός
+daily         καθημερινό
+review        αναθεώρηση
+retrospective ανασκόπηση

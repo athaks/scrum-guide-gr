@@ -48,20 +48,21 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Επιθεώρηση
 
-Οι χρήστες του Scrum πρέπει συχνά να επιθεωρούν τα αντικείμενα του Scrum και την πρόοδο προς ένα Sprint στόχο (goal) ώστε να αποκαλύψουν ανεπιθύμητες διακυμάνσεις. Η επιθεώρηση δε θα πρέπει να είναι τόσο συχνή ώστε να εμποδίζει την εργασία. Οι επιθεωρήσεις είναι ευεργετικότατες όταν εκτελούνται επιμελώς από έμπειρους επιθεωρητές και στον χώρο όπου γίνεται το έργο.
+Οι χρήστες του Scrum πρέπει συχνά να επιθεωρούν τα αντικείμενα του Scrum και την πρόοδο προς ένα Sprint στόχο (goal) ώστε να αποκαλύψουν ανεπιθύμητες αποκλίσεις. Η επιθεώρηση δε θα πρέπει να είναι τόσο συχνή ώστε να εμποδίζει την εργασία. Οι επιθεωρήσεις είναι ευεργετικότατες όταν εκτελούνται επιμελώς από έμπειρους επιθεωρητές και στον χώρο όπου παράγεται το έργο.
 
 Προσαρμογή
 
-If an inspector determines that one or more aspects of a process deviate outside acceptable limits, and that the resulting product will be unacceptable, the process or the material being processed must be adjusted. An adjustment must be made as soon as possible to minimize further deviation.
+Εάν κάποιος επιθεωρητής προσδιορίσει ότι μία η περισσότερες απόψεις αποκλίνουν εκτός των αποδεκτών ορίων και ότι το  προκύπτον αποτέλεσμα θα είναι μη αποδεκτό, η διαδικασία η το υλικό υπό επεξεργασία πρέπει να προσαρμοστεί. Η κάθε προσαρμογή πρέπει να γίνει το συντομότερο δυνατό ώστε τα ελαχιστοποιηθεί περεταίρω απόκλιση.
 
-Scrum prescribes four formal events for inspection and adaptation, as described in the Scrum Events section of this document:
+Το Scrum υπαγορεύει τέσσερα τυπικά συμβάντα για επιθεώρηση και προσαρμογή, όπως αυτά περιγράφονται στην ενότητα “Συμβάντα του Scrum” αυτού του κειμένου:
 
-Sprint Planning
-Daily Scrum
-Sprint Review
-Sprint Retrospective
+Σχεδιασμός Sprint (planning)
+Καθημερινό Scrum (daily)
+Αναθεώρηση Sprint (review)
+Ανασκόπηση Sprint (retrospective)
 
 The Scrum Team
+
 The Scrum Team consists of a Product Owner, the Development Team, and a Scrum Master. Scrum Teams are self-organizing and cross-functional. Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team. Cross-functional teams have all competencies needed to accomplish the work without depending on others not part of the team. The team model in Scrum is designed to optimize flexibility, creativity, and productivity.
 Scrum Teams deliver products iteratively and incrementally, maximizing opportunities for feedback. Incremental deliveries of "Done" product ensure a potentially useful version of working product is always available.
 The Product Owner
@@ -111,7 +112,9 @@ Planning Scrum implementations within the organization;
 Helping employees and stakeholders understand and enact Scrum and empirical product development;
 Causing change that increases the productivity of the Scrum Team; and,
 Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.
-Scrum Events
+
+Συμβάντα του Scrum
+
 Prescribed events are used in Scrum to create regularity and to minimize the need for meetings not defined in Scrum. All events are time-boxed events, such that every event has a maximum duration. Once a Sprint begins, its duration is fixed and cannot be shortened or lengthened. The remaining events may end whenever the purpose of the event is achieved, ensuring an appropriate amount of time is spent without allowing waste in the process.
 Other than the Sprint itself, which is a container for all other events, each event in Scrum is a formal opportunity to inspect and adapt something. These events are specifically designed to enable critical transparency and inspection. Failure to include any of these events results in reduced transparency and is a lost opportunity to inspect and adapt.
 The Sprint
