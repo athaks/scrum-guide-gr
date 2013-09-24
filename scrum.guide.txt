@@ -10,11 +10,12 @@
 
 Ο στόχος του Οδηγού του Scrum
 
-Το Scrum είναι ένα πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προιόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), ΧΧΧΧΧΧΧΧΧ (artifacts) και από τους κανόνες (rules) που τα συνδέουν.ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum. Ο Οδηγός του Scrum Guide γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
+Το Scrum είναι ένα πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προιόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), ΧΧΧΧΧΧΧΧΧ (artifacts) και από τους κανόνες (rules) που τα συνδέουν.Ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum. Ο Οδηγός του Scrum Guide γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
 
 Ο Ορισμός του Scrum
 
-Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
+Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οποίου μπορεί κανείς να αντιμετωπίσει προσαρμοσμένης περίπλοκότητας προβλήματα, ενώ ταυτόχρονα, παραγωγικά και δημιουργικά, παραδίδει προϊόντα της μεγαλήτερης δυνατής αξίας.
+
 Scrum is:
 Lightweight
 Simple to understand
