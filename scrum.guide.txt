@@ -31,22 +31,35 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Η θεωρία του Scrum
 
-Το Scrum οικοδομήθηκε επί εμπειρικής θεωρίας για έλεγχο διαδικασιών, ή εμπειρισμό (empiricism). Ο εμπειρισμός βεβαιώνει ότι η γνώση προέρχεται από εμπειρία και ότι η λήψη αποφάσεων βασίζεται σε ότι είναι γνωστό. Το Scrum χρησιμοποιεί μία αλληλεπιδραστική και προσαυξητική προσέγγιση για να βελτιστοποιήσει την  προβλεψιμότητα και να ελέγξει τον κίνδυνο (risk).
-Three pillars uphold every implementation of empirical process control: transparency, inspection, and adaptation.
-Transparency
+Το Scrum οικοδομήθηκε επί εμπειρικής θεωρίας για έλεγχο διαδικασιών, ή εμπειρισμό (empiricism). Ο εμπειρισμός βεβαιώνει ότι η γνώση προέρχεται από εμπειρία και ότι η λήψη αποφάσεων βασίζεται σε ότι είναι γνωστό. Το Scrum χρησιμοποιεί μία αλληλεπιδραστική και προσαυξητική προσέγγιση για να βελτιστοποιήσει την προβλεψιμότητα και να ελέγξει τον κίνδυνο (risk).
+
+Τρεις πυλώνες στηρίζουν κάθε υλοποίηση εμπειρικού ελέγχου διαδικασιών: διαφάνεια, επιθεώρηση και προσαρμογή.
+
+
+Διαφάνεια
+
 Significant aspects of the process must be visible to those responsible for the outcome. Transparency requires those aspects be defined by a common standard so observers share a common understanding of what is being seen.
+
 For example:
+
 A common language referring to the process must be shared by all participants; and,
 Those performing the work and those accepting the work product must share a common definition of "Done".
-Inspection
+
+Επιθεώρηση
+
 Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances. Their inspection should not be so frequent that inspection gets in the way of the work. Inspections are most beneficial when diligently performed by skilled inspectors at the point of work.
-Adaptation
+
+Προσαρμογή
+
 If an inspector determines that one or more aspects of a process deviate outside acceptable limits, and that the resulting product will be unacceptable, the process or the material being processed must be adjusted. An adjustment must be made as soon as possible to minimize further deviation.
+
 Scrum prescribes four formal events for inspection and adaptation, as described in the Scrum Events section of this document:
+
 Sprint Planning
 Daily Scrum
 Sprint Review
 Sprint Retrospective
+
 The Scrum Team
 The Scrum Team consists of a Product Owner, the Development Team, and a Scrum Master. Scrum Teams are self-organizing and cross-functional. Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team. Cross-functional teams have all competencies needed to accomplish the work without depending on others not part of the team. The team model in Scrum is designed to optimize flexibility, creativity, and productivity.
 Scrum Teams deliver products iteratively and incrementally, maximizing opportunities for feedback. Incremental deliveries of "Done" product ensure a potentially useful version of working product is always available.
