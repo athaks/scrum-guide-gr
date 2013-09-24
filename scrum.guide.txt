@@ -23,7 +23,7 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Το Scrum είναι ένα εργασιακό πλαίσιο διαδικασιών που έχει χρησιμοποιηθεί για την διαχείριση ανάπτυξης περίπλοκων προϊόντων από τις αρχές της δεκαετίας του 1990. Το Scrum δεν είναι μια διαδικασία η μια τεχνική κατασκευής προϊόντων· είναι ένα εργασιακό πλαίσιο μέσα στο οποίο μπορούμε να μεταχειριστούμε διάφορες διαδικασίες και τεχνικές. Το Scrum καθιστά σαφή την σχετική αποδοτικότητα των πρακτικών προϊοντικής διαχείρισης και ανάπτυξής σας, ώστε να βελτιωθείτε.
 
-Το πλαίσιο Scrum αποτελείται από ομάδες (Scrum Teams) τους συνδεδεμένους με αυτούς ρόλους (roles), συμβάντα (events) και κανόνες (rules). Κάθε μέρος (component) εντός του πλαισίου εξυπηρετεί συγκεκριμένο σκοπό και είναι  ουσιώδες για την χρήση και την επιτυχία του Scrum.
+Το πλαίσιο Scrum αποτελείται από ομάδες Scrum (teams) τους συνδεδεμένους με αυτούς ρόλους (roles), συμβάντα (events) και κανόνες (rules). Κάθε μέρος (component) εντός του πλαισίου εξυπηρετεί συγκεκριμένο σκοπό και είναι  ουσιώδες για την χρήση και την επιτυχία του Scrum.
 
 Οι ρόλοι του Scrum διασυνδέσουν τα συμβάντα, τους ρόλους και τα αντικείμενα, και διέπουν τις μεταξύ τους σχέσεις και τις αλληλεπιδράσεις. Οι ρόλοι του Scrum περιγράφονται καθ' όλη την έκταση αυτού του κειμένου.
 
@@ -31,7 +31,7 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Η θεωρία του Scrum
 
-Το Scrum οικοδομήθηκε επί εμπειρικής θεωρίας για έλεγχο διαδικασιών, ή εμπειρισμό (empiricism). Ο εμπειρισμός βεβαιώνει ότι η γνώση προέρχεται από εμπειρία και ότι η λήψη αποφάσεων βασίζεται σε ότι είναι γνωστό. Το Scrum χρησιμοποιεί μία αλληλεπιδραστική και προσαυξητική προσέγγιση για να βελτιστοποιήσει την προβλεψιμότητα και να ελέγξει τον κίνδυνο (risk).
+Το Scrum οικοδομήθηκε επί εμπειρικής θεωρίας για έλεγχο διαδικασιών, ή εμπειρισμό (empiricism). Ο εμπειρισμός βεβαιώνει ότι η γνώση προέρχεται από εμπειρία και ότι η λήψη αποφάσεων βασίζεται σε ότι είναι γνωστό. Το Scrum χρησιμοποιεί μία αλληλεπιδραστική και προσαυξητική (incremental) προσέγγιση για να βελτιστοποιήσει την προβλεψιμότητα και να ελέγξει τον κίνδυνο (risk).
 
 Τρεις πυλώνες στηρίζουν κάθε υλοποίηση εμπειρικού ελέγχου διαδικασιών: διαφάνεια (transparency), επιθεώρηση (inspection) και προσαρμογή (adaptation).
 
@@ -61,11 +61,14 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 Αναθεώρηση Sprint (review)
 Ανασκόπηση Sprint (retrospective)
 
-The Scrum Team
+Ομάδα Scrum
 
-The Scrum Team consists of a Product Owner, the Development Team, and a Scrum Master. Scrum Teams are self-organizing and cross-functional. Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team. Cross-functional teams have all competencies needed to accomplish the work without depending on others not part of the team. The team model in Scrum is designed to optimize flexibility, creativity, and productivity.
-Scrum Teams deliver products iteratively and incrementally, maximizing opportunities for feedback. Incremental deliveries of "Done" product ensure a potentially useful version of working product is always available.
+Η ομάδα Scrum αποτελείται από τον ιδιοκτήτη του προϊόντος (product owner), την ομάδα ανάπτυξής (development team) και ένα Scrum αυθέντη (master). Οι ομάδες Scrum αυτό-οργανώνονται και είναι διαλειτουργικές (cross-functional). Οι αυτό-οργανωτικές ομάδες επιλέγουν πως να ολοκληρώσουν το έργο τους με τον βέλτιστο τρόπο, αντί να διευθύνονται από άλλους εκτός της ομάδας. Οι διαλειτουργικές ομάδες έχουν όλες τις απαιτούμενες δεξιότητες και ικανότητες να ολοκληρώσουν το έργο τους χωρίς να εξαρτώνται από άλλους εκτός της ομάδας. Το πρότυπο ομάδας στο Scrum είναι σχεδιασμένο ώστε να μεγιστοποιεί την ευελιξία, την δημιουργικότητα και την παραγωγικότητα.
+
+Οι ομάδες Scrum παραδίδουν προϊόντα με τρόπο διαδραστικό και προσαυξητικό, μεγιστοποιώντας της ευκαιρίες για ανατροφοδότηση (feedback). Προσαυξητικές παραδώσεις του “γινωμένου” προϊόντος εξασφαλίζουν ότι μια, δυνητικά χρήσιμη έκδοση λειτουργικού προϊόντος, είναι πάντα διαθέσιμη.
+
 The Product Owner
+
 The Product Owner is responsible for maximizing the value of the product and the work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.
 The Product Owner is the sole person responsible for managing the Product Backlog. Product Backlog management includes:
 Clearly expressing Product Backlog items;
