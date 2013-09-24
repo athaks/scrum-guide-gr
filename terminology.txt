@@ -1,14 +1,18 @@
-Definitive  καθοριστικός
 Scrum
+Definitive    καθοριστικός
 Scrum Guide   Οδηγός του Scrum
-framework   πλαίσιο
-roles   ρόλοι
-events  συμβάντα
-artifacts   ????
-rules   κανόνες
-framework   εργασιακό πλαίσιο
-process διαδικασία
-lightweight ελαφρύ
-empiricism  εμπειρισμός
+framework     πλαίσιο
+roles         ρόλοι
+events        συμβάντα
+artifacts     αντικείμενα
+rules         κανόνες
+framework     εργασιακό πλαίσιο
+process       διαδικασία
+lightweight   ελαφρύ
+empiricism    εμπειρισμός
+transparency  διαφάνεια
+inspection    επιθεώρηση
+adaptation    προσαρμογή
+"done"        γινωμένο
 sprint
-
+goal          στόχος
