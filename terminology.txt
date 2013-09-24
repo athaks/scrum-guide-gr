@@ -2,11 +2,12 @@ Definitive  καθοριστικός
 Scrum
 Scrum Guide   Οδηγός του Scrum
 framework   πλαίσιο
-roles
-events
-artifacts
-rules
-framework
-process
+roles   ρόλοι
+events  συμβάντα
+artifacts   ????
+rules   κανόνες
+framework   εργασιακό πλαίσιο
+process διαδικασία
+lightweight ελαφρύ
 sprint
 
