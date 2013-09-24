@@ -1,20 +1,19 @@
-The Scrum Guide
-The Definitive Guide to Scrum The Rules of the Game
+﻿Οδηγός του Scrum
 
-July 2013
-Developed and sustained by Ken Schwaber and Jeff Sutherland
+Ο Καθοριστικός Οδηγός για το Scrum:
+ Οι κανόνες του παιχνιδιού
 
-Improving the Profession of Software Development
-Table of Contents
-The Scrum Guide 1
-The Definitive Guide to Scrum The Rules of the Game 1
-mm  1
-July 2013   1
-Table of Contents   2
+Σεπτέμβρης 2013
+Δημιουργήθηκε και συντηρείται από τους Ken Schwaber και Jeff Sutherland
 
-Purpose of the Scrum Guide
-Scrum is a framework for developing and sustaining complex products. This Guide contains the definition of Scrum. This definition consists of Scrum's roles, events, artifacts, and the rules that bind them together. Ken Schwaber and Jeff Sutherland developed Scrum; the Scrum Guide is written and provided by them. Together, they stand behind the Scrum Guide.
-Definition of Scrum
+Βελτιώνοντας το επάγγελμα Ανάπτυξη Λογισμικού
+
+Ο στόχος του Οδηγού του Scrum
+
+Το Scrum είναι ένα πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προιόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), ΧΧΧΧΧΧΧΧΧ (artifacts) και από τους κανόνες (rules) που τα συνδέουν.ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum. Ο Οδηγός του Scrum Guide γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
+
+Ο Ορισμός του Scrum
+
 Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
 Scrum is:
 Lightweight
