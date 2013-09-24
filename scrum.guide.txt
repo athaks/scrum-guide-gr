@@ -6,25 +6,31 @@
 Σεπτέμβρης 2013
 Δημιουργήθηκε και συντηρείται από τους Ken Schwaber και Jeff Sutherland
 
-Βελτιώνοντας το επάγγελμα Ανάπτυξη Λογισμικού
+Βελτιώνοντας την επαγγελματική Ανάπτυξη Λογισμικού
 
 Ο στόχος του Οδηγού του Scrum
 
-Το Scrum είναι ένα πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προιόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), ΧΧΧΧΧΧΧΧΧ (artifacts) και από τους κανόνες (rules) που τα συνδέουν.Ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum. Ο Οδηγός του Scrum Guide γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
+Το Scrum είναι ένα εργασιακό πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προϊόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), ΧΧΧΧΧΧΧΧΧ (artifacts) και από τους κανόνες (rules) που τα συνδέουν. Ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum· Ο Οδηγός του Scrum γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
 
-Ο Ορισμός του Scrum
+Ο ορισμός του Scrum
 
-Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οποίου μπορεί κανείς να αντιμετωπίσει προσαρμοσμένης περίπλοκότητας προβλήματα, ενώ ταυτόχρονα, παραγωγικά και δημιουργικά, παραδίδει προϊόντα της μεγαλήτερης δυνατής αξίας.
+Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οποίου μπορεί κανείς να αντιμετωπίσει προσαρμοσμένης περιπλοκότητας προβλήματα, ενώ ταυτόχρονα, παραγωγικά και δημιουργικά, παραδίδει προϊόντα της μεγαλύτερης δυνατής αξίας.
 
-Scrum is:
-Lightweight
-Simple to understand
-Difficult to master
-Scrum is a process framework that has been used to manage complex product development since the early 1990s. Scrum is not a process or a technique for building products; rather, it is a framework within which you can employ various processes and techniques. Scrum makes clear the relative efficacy of your product management and development practices so that you can improve.
+Το Scrum είναι:
+Ελαφρύ (lightweight)
+Απλό να κατανοηθεί
+Δύσκολο να κυριαρχηθεί
+
+Το Scrum είναι ένα εργασιακό πλαίσιο διαδικασιών που έχει χρησιμοποιηθεί για την διαχείριση ανάπτυξης περίπλοκων προϊόντων από τις αρχές της δεκαετίας του 1990. Το Scrum δεν είναι μια διαδικασία η μια τεχνική κατασκευής προϊόντων· είναι ένα εργασιακό πλαίσιο μέσα στο οποίο μπορούμε να μεταχειριστούμε διάφορες διαδικασίες και τεχνικές. Το Scrum καθιστά σαφή την σχετική αποδοτικότητα των πρακτικών προϊοντικής διαχείρισης και ανάπτυξής σας, ώστε να βελτιωθείτε.
+
 The Scrum framework consists of Scrum Teams and their associated roles, events, artifacts, and rules. Each component within the framework serves a specific purpose and is essential to Scrum's success and usage.
+
 The rules of Scrum bind together the events, roles, and artifacts, governing the relationships and interaction between them. The rules of Scrum are described throughout the body of this document.
+
 Specific tactics for using the Scrum framework vary and are described elsewhere.
+
 Scrum Theory
+
 Scrum is founded on empirical process control theory, or empiricism. Empiricism asserts that knowledge comes from experience and making decisions based on what is known. Scrum employs an iterative, incremental approach to optimize predictability and control risk.
 Three pillars uphold every implementation of empirical process control: transparency, inspection, and adaptation.
 Transparency
