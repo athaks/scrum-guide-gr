@@ -9,5 +9,6 @@ rules   κανόνες
 framework   εργασιακό πλαίσιο
 process διαδικασία
 lightweight ελαφρύ
+empiricism  εμπειρισμός
 sprint
 

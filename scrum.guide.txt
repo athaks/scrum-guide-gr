@@ -29,9 +29,9 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Συγκεκριμένες τακτικές χρήσεις του πλαισίου Scrum ποικίλουν και περιγράφονται σε άλλα κείμενα.
 
-Scrum Theory
+Η θεωρία του Scrum
 
-Scrum is founded on empirical process control theory, or empiricism. Empiricism asserts that knowledge comes from experience and making decisions based on what is known. Scrum employs an iterative, incremental approach to optimize predictability and control risk.
+Το Scrum οικοδομήθηκε επί εμπειρικής θεωρίας για έλεγχο διαδικασιών, ή εμπειρισμό (empiricism). Ο εμπειρισμός βεβαιώνει ότι η γνώση προέρχεται από εμπειρία και ότι η λήψη αποφάσεων βασίζεται σε ότι είναι γνωστό. Το Scrum χρησιμοποιεί μία αλληλεπιδραστική και προσαυξητική προσέγγιση για να βελτιστοποιήσει την  προβλεψιμότητα και να ελέγξει τον κίνδυνο (risk).
 Three pillars uphold every implementation of empirical process control: transparency, inspection, and adaptation.
 Transparency
 Significant aspects of the process must be visible to those responsible for the outcome. Transparency requires those aspects be defined by a common standard so observers share a common understanding of what is being seen.
