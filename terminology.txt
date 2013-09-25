@@ -4,7 +4,7 @@ Scrum Guide   Οδηγός του Scrum
 framework     πλαίσιο
 roles         ρόλοι
 events        συμβάντα
-artifacts     αντικείμενα   ???????
+artifacts     συστατικά στοιχεία
 rules         κανόνες
 framework     εργασιακό πλαίσιο
 process       διαδικασία
@@ -13,7 +13,7 @@ empiricism    εμπειρισμός
 transparency  διαφάνεια
 inspection    επιθεώρηση
 adaptation    προσαρμογή
-"done"        γινωμένο
+"done"        "έτοιμο"
 sprint
 goal          στόχος
 planning      σχεδιασμός
@@ -21,4 +21,4 @@ daily         καθημερινό
 review        αναθεώρηση
 retrospective ανασκόπηση
 product owner ιδιοκτήτη του προϊόντος
-master        αυθέντης    ??????
+master        δάσκαλος
