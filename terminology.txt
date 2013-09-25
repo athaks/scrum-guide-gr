@@ -21,4 +21,5 @@ daily         καθημερινό
 review        αναθεώρηση
 retrospective ανασκόπηση
 product owner ιδιοκτήτη του προϊόντος
-master        δάσκαλος
+master        δάσκαλος, ειδήμονας ????
+backlog       απόθεμα

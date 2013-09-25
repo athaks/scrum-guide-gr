@@ -63,23 +63,30 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Ομάδα Scrum
 
-Η ομάδα Scrum αποτελείται από τον ιδιοκτήτη του προϊόντος (product owner), την ομάδα ανάπτυξής (development team) και ένα Scrum Master. Οι ομάδες Scrum αυτό-οργανώνονται και είναι διαλειτουργικές (cross-functional). Οι αυτό-οργανωτικές ομάδες επιλέγουν πως να ολοκληρώσουν το έργο τους με τον βέλτιστο τρόπο, αντί να διευθύνονται από άλλους εκτός της ομάδας. Οι διαλειτουργικές ομάδες έχουν όλες τις απαιτούμενες δεξιότητες και ικανότητες να ολοκληρώσουν το έργο τους χωρίς να εξαρτώνται από άλλους εκτός της ομάδας. Το πρότυπο ομάδας στο Scrum είναι σχεδιασμένο ώστε να μεγιστοποιεί την ευελιξία, την δημιουργικότητα και την παραγωγικότητα.
+Η ομάδα Scrum αποτελείται από τον ιδιοκτήτη του προϊόντος (product owner), την ομάδα ανάπτυξής (development team) και ένας ειδήμονας Scrum (master). Οι ομάδες Scrum αυτό-οργανώνονται και είναι διαλειτουργικές (cross-functional). Οι αυτό-οργανωτικές ομάδες επιλέγουν πως να ολοκληρώσουν το έργο τους με τον βέλτιστο τρόπο, αντί να διευθύνονται από άλλους εκτός της ομάδας. Οι διαλειτουργικές ομάδες έχουν όλες τις απαιτούμενες δεξιότητες και ικανότητες να ολοκληρώσουν το έργο τους χωρίς να εξαρτώνται από άλλους εκτός της ομάδας. Το πρότυπο ομάδας στο Scrum είναι σχεδιασμένο ώστε να μεγιστοποιεί την ευελιξία, την δημιουργικότητα και την παραγωγικότητα.
 
 Οι ομάδες Scrum παραδίδουν προϊόντα με τρόπο διαδραστικό και προσαυξητικό, μεγιστοποιώντας της ευκαιρίες για ανατροφοδότηση (feedback). Προσαυξητικές παραδώσεις του “έτοιμου” προϊόντος εξασφαλίζουν ότι μια, δυνητικά χρήσιμη έκδοση λειτουργικού προϊόντος, είναι πάντα διαθέσιμη.
 
-The Product Owner
+Ο Ιδιοκτήτης του Προϊόντος
 
-The Product Owner is responsible for maximizing the value of the product and the work of the Development Team. How this is done may vary widely across organizations, Scrum Teams, and individuals.
-The Product Owner is the sole person responsible for managing the Product Backlog. Product Backlog management includes:
-Clearly expressing Product Backlog items;
-Ordering the items in the Product Backlog to best achieve goals and missions;
-Optimizing the value of the work the Development Team performs;
-Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next; and,
-Ensuring the Development Team understands items in the Product Backlog to the level needed.
-The Product Owner may do the above work, or have the Development Team do it. However, the Product Owner remains accountable.
-The Product Owner is one person, not a committee. The Product Owner may represent the desires of a committee in the Product Backlog, but those wanting to change a Product Backlog item's priority must address the Product Owner.
-For the Product Owner to succeed, the entire organization must respect his or her decisions. The Product Owner's decisions are visible in the content and ordering of the Product Backlog. No one is allowed to tell the Development Team to work from a different set of requirements, and the Development Team isn't allowed to act on what anyone else says.
-The Development Team
+Ο Ιδιοκτήτης του Προϊόντος είναι υπεύθυνος για την μεγιστοποίηση της αξίας του προϊόντος και για το έργο της Ομάδας Ανάπτυξής. Ο τρόπος επίτευξης αυτού ποικίλει μεταξύ οργανισμών, ομάδων ανάπτυξής και ατόμων. 
+
+Ο Ιδιοκτήτης του Προϊόντος είναι ο μοναδικός υπεύθυνος για την διαχείριση του Προϊοντικού Αποθέματος (backlog). Η διαχείριση του  Προϊοντικού Αποθέματος περιλαμβάνει:
+
+Την αποτύπωση των στοιχείων του Προϊοντικού Αποθέματος με σαφήνεια.
+Την ταξινόμηση των στοιχείων του Προϊοντικού Αποθέματος για την βέλτιστη επίτευξη στόχων και αποστολών.
+Την βελτιστοποίηση της αξίας του έργου που παράγει η Ομάδα Ανάπτυξής.
+Την εξασφάλιση ότι το Προϊοντικό Απόθεμα είναι εμφανές, διαυγές και κατανοητό από όλους και ότι προβάλει τα επόμενα αντικείμενα εργασίας της Ομάδας Ανάπτυξής.
+Την εξασφάλιση ότι η Ομάδα Ανάπτυξής κατανοεί, στο επίπεδο που χρειάζεται, τα στοιχεία στο Προϊοντικό Απόθεμα.
+
+Ο Ιδιοκτήτης του Προϊόντος μπορεί να κάνει ο ίδιος την προαναφερθείσα εργασία ή μπορεί να την αναθέσει στην Ομάδα Ανάπτυξής. Και στις δύο περιπτώσεις ο Ιδιοκτήτης του Προϊόντος παραμένει υπόλογος.
+
+Ο Ιδιοκτήτης του Προϊόντος είναι ένα πρόσωπο, όχι μια επιτροπή. Ο Ιδιοκτήτης του Προϊόντος μπορεί να αποτυπώνει τις επιθυμίες μιας επιτροπής στο Προϊοντικό Απόθεμα, αλλά οποιοσδήποτε θελήσει να αλλάξει τα στοιχεία του Προϊοντικού Αποθέματος θα πρέπει να απευθυνθεί στον Ιδιοκτήτη του Προϊόντος.
+
+Για να επιτύχει στον ρόλο του ο Ιδιοκτήτης του Προϊόντος θα πρέπει ο οργανισμός στο σύνολό του να σέβεται τις αποφάσεις του. Αυτές οι αποφάσεις θα πρέπει να είναι εμφανείς στο περιεχόμενο και στην ταξινόμηση του Προϊοντικού Αποθέματος. Σε κανέναν δεν επιτρέπεται ζητήσει από την Ομάδα Ανάπτυξής να εργαστεί πάνω σε διαφορετικό σύνολο προδιαγραφών και η Ομάδα Ανάπτυξής απαγορεύεται να ακολουθήσει οδηγίες από κάποιον άλλο. 
+
+Η Ομάδα Ανάπτυξής
+
 The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. Only members of the Development Team create the Increment.
 Development Teams are structured and empowered by the organization to organize and manage their own work. The resulting synergy optimizes the Development Team's overall efficiency and effectiveness.
 Development Teams have the following characteristics:
