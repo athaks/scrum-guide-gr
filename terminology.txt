@@ -15,6 +15,7 @@ inspection    επιθεώρηση
 adaptation    προσαρμογή
 "done"        "έτοιμο"
 sprint
+increment     προσαυξησή ?????????
 goal          στόχος
 planning      σχεδιασμός
 daily         καθημερινό
@@ -23,3 +24,4 @@ retrospective ανασκόπηση
 product owner ιδιοκτήτη του προϊόντος
 master        δάσκαλος, ειδήμονας ????
 backlog       απόθεμα
+releasable    ανακοινώσιμου

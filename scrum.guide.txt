@@ -87,16 +87,20 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Η Ομάδα Ανάπτυξής
 
-The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. Only members of the Development Team create the Increment.
-Development Teams are structured and empowered by the organization to organize and manage their own work. The resulting synergy optimizes the Development Team's overall efficiency and effectiveness.
-Development Teams have the following characteristics:
-They are self-organizing. No one (not even the Scrum Master) tells the Development Team how to turn Product Backlog into Increments of potentially releasable functionality;
-Development Teams are cross-functional, with all of the skills as a team necessary to create a product Increment;
+Η Ομάδα Ανάπτυξής αποτελείται από επαγγελματίες που επιτελούν το έργο της παράδοσης ενός δυνητικά ανακοινώσιμης (releasable) προσαύξησης (increment) του “έτοιμου” προϊόντος στο τέλος κάθε περιόδου Sprint. Η προσαύξηση παράγεται μόνο από τα μέλη της Ομάδας Ανάπτυξης.
+
+Η Ομάδα Ανάπτυξής είναι έτσι δομημένη και έχει την εξουσιοδοτημένη από τον οργανισμό ώστε να οργανώνει και να διαχειρίζεται το έργο της. Η συνεργία που προκύπτει βελτιστοποιεί της αποδοτικότητα και την αποτελεσματικότητα της Ομάδας Ανάπτυξής.
+
+Οι Ομάδες Ανάπτυξής έχουν τα παρακάτω χαρακτηριστικά:
+Αυτό-οργανώνονται. Κανείς (ούτε ο Scrum Master) δεν υποδεικνύει στην Ομάδα Ανάπτυξής πως θα μετατρέψουν το Προϊοντικό Απόθεμα σε προσαυξήσεις δυνητικά ανακοινώσιμης λειτουργικότητας.
+Είναι διαλειτουργικές (cross-functional), διαθέτουν ομαδικά όλες τις απαιτούμενες δεξιότητες που χρειάζονται για να παράξουν μία προσαύξηση του προϊόντος.  
+
 Scrum recognizes no titles for Development Team members other than Developer, regardless of the work being performed by the person; there are no exceptions to this rule;
 Scrum recognizes no sub-teams in the Development Team, regardless of particular domains that need to be addressed like testing or business analysis; there are no exceptions to this rule; and,
 Individual Development Team members may have specialized skills and areas of focus, but accountability belongs to the Development Team as a whole.
 Development Team Size
 Optimal Development Team size is small enough to remain nimble and large enough to complete significant work within a Sprint. Fewer than three Development Team members decrease interaction and results in smaller productivity gains. Smaller Development Teams may encounter skill constraints during the Sprint, causing the Development Team to be unable to deliver a potentially releasable Increment. Having more than nine members requires too much coordination. Large Development Teams generate too much complexity for an empirical process to manage. The Product Owner and Scrum Master roles are not included in this count unless they are also executing the work of the Sprint Backlog.
+
 The Scrum Master
 The Scrum Master is responsible for ensuring Scrum is understood and enacted. Scrum Masters do this by ensuring that the Scrum Team adheres to Scrum theory, practices, and rules.
 The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren't. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.
