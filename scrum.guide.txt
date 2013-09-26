@@ -95,10 +95,14 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 Αυτό-οργανώνονται. Κανείς (ούτε ο Scrum Master) δεν υποδεικνύει στην Ομάδα Ανάπτυξής πως θα μετατρέψουν το Προϊοντικό Απόθεμα σε προσαυξήσεις δυνητικά ανακοινώσιμης λειτουργικότητας.
 Είναι διαλειτουργικές (cross-functional), διαθέτουν ομαδικά όλες τις απαιτούμενες δεξιότητες που χρειάζονται για να παράξουν μία προσαύξηση του προϊόντος.  
 
-Scrum recognizes no titles for Development Team members other than Developer, regardless of the work being performed by the person; there are no exceptions to this rule;
-Scrum recognizes no sub-teams in the Development Team, regardless of particular domains that need to be addressed like testing or business analysis; there are no exceptions to this rule; and,
-Individual Development Team members may have specialized skills and areas of focus, but accountability belongs to the Development Team as a whole.
-Development Team Size
+Το Scrum δεν αναγνωρίζει κανένα άλλο τίτλο στα μέλή της Ομάδας Ανάπτυξης εκτός από αυτό του προγραμματιστή (developer), ανεξάρτητα από το έργο που επιτελείται από αυτόν. Σε αυτόν τον κανόνα δεν υπάρχουν εξαιρέσεις.  
+
+Το Scrum δεν επιτρέπει την δημιουργία υποομάδων μέσα στην Ομάδα Ανάπτυξής, ανεξάρτητα από τα συγκεκριμένα πεδία που πρέπει να καλυφθούν, όπως δοκιμών (testing) ή ανάλυσης προδιαγραφών (business analysis). Όυτε σε αυτόν τον κανόνα δεν υπάρχουν εξαιρέσεις
+
+Συγκεκριμένα μέλη της Ομάδας Ανάπτυξής ενδέχεται να έχουν εξειδικευμένες δεξιότητες και να εστιάζουν σε συγκεκριμένους τομείς, αλλά η Ομάδα Ανάπτυξής είναι υπόλογη στο σύνολό της.
+
+Το Μέγεθος της Ομάδας Ανάπτυξης
+
 Optimal Development Team size is small enough to remain nimble and large enough to complete significant work within a Sprint. Fewer than three Development Team members decrease interaction and results in smaller productivity gains. Smaller Development Teams may encounter skill constraints during the Sprint, causing the Development Team to be unable to deliver a potentially releasable Increment. Having more than nine members requires too much coordination. Large Development Teams generate too much complexity for an empirical process to manage. The Product Owner and Scrum Master roles are not included in this count unless they are also executing the work of the Sprint Backlog.
 
 The Scrum Master

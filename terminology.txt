@@ -25,3 +25,6 @@ product owner ιδιοκτήτη του προϊόντος
 master        δάσκαλος, ειδήμονας ????
 backlog       απόθεμα
 releasable    ανακοινώσιμου
+developer     προγραμματιστής
+testing       δοκιμές
+business analysis ανάλυση προδιαγραφών ??????
