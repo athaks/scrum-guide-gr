@@ -87,7 +87,7 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Η Ομάδα Ανάπτυξής
 
-Η Ομάδα Ανάπτυξής αποτελείται από επαγγελματίες που επιτελούν το έργο της παράδοσης ενός δυνητικά ανακοινώσιμης (releasable) προσαύξησης (increment) του “έτοιμου” προϊόντος στο τέλος κάθε περιόδου Sprint. Η προσαύξηση παράγεται μόνο από τα μέλη της Ομάδας Ανάπτυξης.
+Η Ομάδα Ανάπτυξής αποτελείται από επαγγελματίες που επιτελούν το έργο της παράδοσης μιας δυνητικά ανακοινώσιμης (releasable) προσαύξησης (increment) του “έτοιμου” προϊόντος στο τέλος κάθε περιόδου Sprint. Η προσαύξηση παράγεται μόνο από τα μέλη της Ομάδας Ανάπτυξης.
 
 Η Ομάδα Ανάπτυξής είναι έτσι δομημένη και έχει την εξουσιοδοτημένη από τον οργανισμό ώστε να οργανώνει και να διαχειρίζεται το έργο της. Η συνεργία που προκύπτει βελτιστοποιεί της αποδοτικότητα και την αποτελεσματικότητα της Ομάδας Ανάπτυξής.
 
@@ -103,10 +103,12 @@ Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οπο
 
 Το Μέγεθος της Ομάδας Ανάπτυξης
 
-Optimal Development Team size is small enough to remain nimble and large enough to complete significant work within a Sprint. Fewer than three Development Team members decrease interaction and results in smaller productivity gains. Smaller Development Teams may encounter skill constraints during the Sprint, causing the Development Team to be unable to deliver a potentially releasable Increment. Having more than nine members requires too much coordination. Large Development Teams generate too much complexity for an empirical process to manage. The Product Owner and Scrum Master roles are not included in this count unless they are also executing the work of the Sprint Backlog.
+Το βέλτιστο μέγεθος της Ομάδας Ανάπτυξής είναι αρκετά μικρό ώστε να παραμένει ευέλικτη και αρκετά μεγάλη ώστε να ολοκληρώνει σημαντικό έργο ενός μιας περιόδου. Με λιγότερα από τρία μέλη, η αλληλεπίδραση μειώνεται, με αποτέλεσμα μικρότερα οφέλη παραγωγικότητας. ??? Μικρότερες ομάδες ενδέχεται να αντιμετωπίσουν περιορισμούς δεξιοτήτων κατά την διάρκεια μιας περιόδου, με αποτέλεσμα να μην μπορέσει η Ομάδα Ανάπτυξής να παραδώσει μια δυνητικά ανακοινώσιμη προσαύξηση. Περισσότερα από εννέα μέλη απαιτούν πάρα πολύ συντονισμό. Μεγάλες Ομάδες Ανάπτυξης αυξάνουν την πολυπλοκότητα πάνω από τα επίπεδα διαχειρισιμότητας μιας εμπειρικής διαδικασίας. Οι ρόλοι του Ιδιοκτήτη του Προϊόντος και του Scrum Master δεν συνυπολογίζονται παρά μόνο στην περίπτωση που επιτελούν και αυτοί έργο ορισμένο στο απόθεμα της περιόδου Sprint.
 
-The Scrum Master
-The Scrum Master is responsible for ensuring Scrum is understood and enacted. Scrum Masters do this by ensuring that the Scrum Team adheres to Scrum theory, practices, and rules.
+Ο Scrum Master
+
+Ο Scrum Master είναι υπεύθυνος για την διασφάλιση της κατανόησης και της εκτέλεσης του Scrum. Οι Scrum Masters το επιτυγχάνουν αυτό διασφαλίζοντας ότι η ομάδα Scrum εμμένει στην θεωρία, στις πρακτικές και στους κανόνες του Scrum.
+
 The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren't. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.
 Scrum Master Service to the Product Owner
 The Scrum Master serves the Product Owner in several ways, including:

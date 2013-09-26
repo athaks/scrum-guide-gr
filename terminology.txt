@@ -14,7 +14,7 @@ transparency  διαφάνεια
 inspection    επιθεώρηση
 adaptation    προσαρμογή
 "done"        "έτοιμο"
-sprint
+sprint        περίοδος ?????????
 increment     προσαυξησή ?????????
 goal          στόχος
 planning      σχεδιασμός
