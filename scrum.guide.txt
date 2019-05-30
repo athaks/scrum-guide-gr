@@ -1,245 +1,919 @@
-﻿Οδηγός του Scrum
+﻿Ο Οδηγός του ScrumTM
 
-Ο Καθοριστικός Οδηγός για το Scrum:
- Οι κανόνες του παιχνιδιού
+Ο Απόλυτος Οδηγός για το Scrum:
+Οι Κανόνες του Παιχνιδιού
 
-Σεπτέμβρης 2013
-Δημιουργήθηκε και συντηρείται από τους Ken Schwaber και Jeff Sutherland
+Νοέμβριος 2017
 
-Βελτιώνοντας την επαγγελματική Ανάπτυξη Λογισμικού
+Αναπτύχθηκε και συντηρείται από του δημιουργούς του Scrum:
+Ken Schwaber and Jeff Sutherland
 
-Ο στόχος του Οδηγού του Scrum
+Ελληνικά / Greek
 
-Το Scrum είναι ένα εργασιακό πλαίσιο (framework) για την ανάπτυξη και την συντήρηση περίπλοκων προϊόντων. Ο οδηγός αυτός περιέχει το ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από ρόλους (roles), συμβάντα (events), συστατικά στοιχεία (artifacts) και από τους κανόνες (rules) που τα συνδέουν. Ο Ken Schwaber και ο Jeff Sutherland ανέπτυξαν το Scrum· Ο Οδηγός του Scrum γράφτηκε και παρέχεται από αυτούς. Και οι δυο μαζί βρίσκονται πίσω από τον Οδηγό του Scrum.
+Σκοπός του Οδηγού του Scrum
 
-Ο ορισμός του Scrum
+Το Scrum είναι ένα πλαίσιο για την ανάπτυξη, την παράδοση και την συντήρηση πολύπλοκων
+προϊόντων. Ο οδηγός αυτός περιέχει τον ορισμό του Scrum. Ο ορισμός αυτός αποτελείται από
+ρόλους, δραστηριότητες, αντικείμενα και από τους κανόνες που τα συνδέουν. Το Scrum
+αναπτύχθηκε από τους Ken Schwaber και Jeff Sutherland. Ο οδηγός του Scrum γράφτηκε και
+παρέχεται από αυτούς. Μαζί, βρίσκονται πίσω από τον οδηγό του Scrum.
 
-Scrum (ουσ.): Ένα εργασιακό πλαίσιο μέσω του οποίου μπορεί κανείς να αντιμετωπίσει προσαρμοσμένης περιπλοκότητας προβλήματα, ενώ ταυτόχρονα, παραγωγικά και δημιουργικά, παραδίδει προϊόντα της μεγαλύτερης δυνατής αξίας.
+Χρήσεις του Scrum
+
+Το Scrum αναπτύχθηκε αρχικά για τη διαχείριση και την ανάπτυξη προϊόντων. Από τις αρχές
+της δεκαετίας του 1990, το Scrum έχει χρησιμοποιηθεί εκτενώς σε όλο τον κόσμο για:
+
+1. Την έρευνα και τον προσδιορισμό βιώσιμων αγορών, τεχνολογιών και δυνατοτήτων προϊόντων.
+2. Την ανάπτυξη προϊόντων και βελτιώσεων.
+3. Την παράδοση προϊόντων και βελτιώσεων, ακόμα και πολλές φορές την ημέρα.
+4. Την ανάπτυξη και υποστήριξη του Cloud (online, ασφαλές, κατ' απαίτηση) και
+   άλλων επιχειρησιακών περιβαλλόντων για τη χρήση των προϊόντων, και
+5. Τη συντήρηση και ανανέωση προϊόντων.
+
+Το Scrum έχει χρησιμοποιηθεί για την ανάπτυξη λογισμικού, υλικού, ενσωματωμένου
+λογισμικού, δικτύων αλληλεπιδραστικών λειτουργιών, αυτόνομων οχημάτων, για σχολεία,
+κυβερνητικούς φορείς, μάρκετινγκ, για τη διαχείριση της λειτουργίας οργανισμών και σχεδόν
+για οτιδήποτε χρησιμοποιούμε στην καθημερινή μας ζωή ως άτομα και κοινωνίες.
+
+Καθώς οι τεχνολογικές, εμπορικές και περιβαλλοντικές πολυπλοκότητες και οι
+αλληλεπιδράσεις τους έχουν παρουσιάσει ραγδαία αύξηση, η χρησιμότητα του Scrum στην
+αντιμετώπιση της πολυπλοκότητας αποδεικνύεται καθημερινά.
+
+Το Scrum αποδείχθηκε ιδιαίτερα αποτελεσματικό στην επαναληπτική και σταδιακή μεταφορά
+γνώσης. Το Scrum χρησιμοποιείται πλέον ευρέως για προϊόντα, υπηρεσίες και τη διαχείριση
+του οργανισμού.
+
+Η ουσία του Scrum είναι μια μικρή ομάδα ανθρώπων. Η μεμονωμένη ομάδα είναι ιδιαίτερα
+ευέλικτη και προσαρμοστική. Αυτά τα πλεονεκτήματα συνεχίζουν να υφίστανται σε μία ομάδα,
+σε μερικές ομάδες ή σε πολλές ομάδες, και σε δίκτυα ομάδων που αναπτύσσουν, παραδίδουν,
+λειτουργούν και συντηρούν το έργο και τα προϊόντα εργασίας χιλιάδων ανθρώπων.
+Συνεργάζονται και διαλειτουργούν μέσω εξελιγμένων αρχιτεκτονικών ανάπτυξης και
+στοχευομένων περιβαλλόντων παράδοσης.
+
+Όταν οι λέξεις "αναπτύσσω" και "ανάπτυξη" χρησιμοποιούνται στον οδηγό Scrum, αυτές
+αναφέρονται σε πολύπλοκες εργασίες, συμπεριλαμβανομένων εκείνων των τύπων που
+αναγνωρίστηκαν παραπάνω.
+
+Ορισμός του Scrum
+
+Scrum (ουσ.): Ένα πλαίσιο μέσω του οποίου μπορεί κανείς να αντιμετωπίσει πολύπλοκα
+δυναμικά προβλήματα, παραδίδοντας ταυτόχρονα προϊόντα της μεγαλύτερης δυνατής αξίας,
+με παραγωγικό και δημιουργικό τρόπο.
 
 Το Scrum είναι:
-Ελαφρύ (lightweight)
-Απλό να κατανοηθεί
-Δύσκολο να κυριαρχηθεί
+    • Χαμηλής πολυπλοκότητας
+    • Απλό να το κατανοήσεις
+    • Δύσκολο να το κατακτήσεις
 
-Το Scrum είναι ένα εργασιακό πλαίσιο διαδικασιών που έχει χρησιμοποιηθεί για την διαχείριση ανάπτυξης περίπλοκων προϊόντων από τις αρχές της δεκαετίας του 1990. Το Scrum δεν είναι μια διαδικασία η μια τεχνική κατασκευής προϊόντων· είναι ένα εργασιακό πλαίσιο μέσα στο οποίο μπορούμε να μεταχειριστούμε διάφορες διαδικασίες και τεχνικές. Το Scrum καθιστά σαφή την σχετική αποδοτικότητα των πρακτικών προϊοντικής διαχείρισης και ανάπτυξής σας, ώστε να βελτιωθείτε.
+Το Scrum είναι ένα πλαίσιο διαδικασιών που έχει χρησιμοποιηθεί για την διαχείριση εργασιών
+σε πολύπλοκα προϊόντα από τις αρχές της δεκαετίας του 1990. Το Scrum δεν είναι μια
+διαδικασία, τεχνική ή απόλυτη μέθοδος. Τουναντίον, είναι ένα πλαίσιο μέσα στο οποίο
+μπορείτε να χρησιμοποιείτε διάφορες διαδικασίες και τεχνικές. Το Scrum κάνει εμφανή τη
+σχετική αποδοτικότητα των πρακτικών σας σε ό,τι αφορά την διαχείριση και ανάπτυξη των
+προϊόντων και της εργασίας σας, ώστε να μπορείτε να βελτιώνετε συνεχώς το προϊόν, την
+ομάδα και το περιβάλλον εργασίας.
 
-Το πλαίσιο Scrum αποτελείται από ομάδες Scrum (teams) τους συνδεδεμένους με αυτούς ρόλους (roles), συμβάντα (events) και κανόνες (rules). Κάθε μέρος (component) εντός του πλαισίου εξυπηρετεί συγκεκριμένο σκοπό και είναι  ουσιώδες για την χρήση και την επιτυχία του Scrum.
+Το πλαίσιο Scrum αποτελείται από τις Ομάδες Scrum και τους σχετικούς με αυτές ρόλους και
+κανόνες, δραστηριότητες και αντικείμενα. Καθένα από τα συστατικά στοιχεία του πλαισίου
+εξυπηρετεί συγκεκριμένο σκοπό και είναι ουσιώδες τόσο για την χρήση όσο και για την
+επιτυχία του Scrum.
 
-Οι ρόλοι του Scrum διασυνδέσουν τα συμβάντα, τους ρόλους και τα συστατικά στοιχεία, και διέπουν τις μεταξύ τους σχέσεις και τις αλληλεπιδράσεις. Οι ρόλοι του Scrum περιγράφονται καθ' όλη την έκταση αυτού του κειμένου.
+Οι κανόνες του Scrum δένουν τις δραστηριότητες, τους ρόλους και τα αντικείμενα, και διέπουν
+τις μεταξύ τους σχέσεις και αλληλεπιδράσεις. Οι κανόνες του Scrum περιγράφονται σε όλη την
+έκταση αυτού του κειμένου.
 
-Συγκεκριμένες τακτικές χρήσεις του πλαισίου Scrum ποικίλουν και περιγράφονται σε άλλα κείμενα.
+Οι συγκεκριμένες τακτικές για τη χρήση του πλαισίου Scrum ποικίλλουν, και περιγράφονται
+αλλού.
 
 Η θεωρία του Scrum
 
-Το Scrum οικοδομήθηκε επί εμπειρικής θεωρίας για έλεγχο διαδικασιών, ή εμπειρισμό (empiricism). Ο εμπειρισμός βεβαιώνει ότι η γνώση προέρχεται από εμπειρία και ότι η λήψη αποφάσεων βασίζεται σε ότι είναι γνωστό. Το Scrum χρησιμοποιεί μία αλληλεπιδραστική και προσαυξητική (incremental) προσέγγιση για να βελτιστοποιήσει την προβλεψιμότητα και να ελέγξει τον κίνδυνο (risk).
+Το Scrum θεμελιώνεται στη θεωρία του εμπειρικού ελέγχου διαδικασιών, αλλιώς εμπειρισμό.
 
-Τρεις πυλώνες στηρίζουν κάθε υλοποίηση εμπειρικού ελέγχου διαδικασιών: διαφάνεια (transparency), επιθεώρηση (inspection) και προσαρμογή (adaptation).
+Ο εμπειρισμός υποστηρίζει ότι η γνώση προέρχεται από την εμπειρία και από τη λήψη
+αποφάσεων βασισμένων σε ό,τι γνωρίζουμε. Το Scrum χρησιμοποιεί μία επαναληπτική και
+προσαυξητική προσέγγιση για να βελτιστοποιήσει την προβλεψιμότητα και να ελέγξει τον
+κίνδυνο.
 
+Κάθε υλοποίηση του εμπειρικού ελέγχου διαδικασιών στηρίζεται σε τρεις πυλώνες: τη
+διαφάνεια, την επιθεώρηση και την προσαρμογή.
 
 Διαφάνεια
-
-Σημαντικές απόψεις (aspects) της διαδικασίας πρέπει να είναι διαθέσιμες και ορατές στους υπεύθυνους για το αποτέλεσμα. Η διαφάνεια απαιτεί αυτές οι απόψεις να είναι ορισμένες σε ένα κοινό πρότυπο (standard) ώστε οι παρατηρητές να έχουν κοινή κατανόηση του τι φαίνεται.
+Σημαντικά στοιχεία της διαδικασίας θα πρέπει να είναι ορατά σε αυτούς που είναι υπεύθυνοι
+για το αποτέλεσμα. Η διαφάνεια προϋποθέτει αυτές οι πληροφορίες να είναι ορισμένες σε ένα
+κοινό πρότυπο ώστε οι παρατηρητές να καταλαβαίνουν με τον ίδιο τρόπο αυτό που βλέπουν.
 
 Για παράδειγμα:
 
-Μια γλώσσα αναφοράς της διαδικασίας πρέπει να είναι κοινή για όλους τους συμμετάσχοντες.
+• Η γλώσσα η οποία αναφέρεται στη διαδικασία θα πρέπει να είναι κοινή για όλους τους
+    συμμετέχοντες, και,
 
-Οι παράγοντες το έργο και οι αποδέκτες του αποτελέσματός του πρέπει να έχουν κοινό ορισμό του “έτοιμου” (“Done”).
+• Αυτοί που εκτελούν μια εργασία και αυτοί που αποδέχονται το αποτέλεσμα της εργασίας
+    θα πρέπει να χρησιμοποιούν τον ίδιο ορισμό για το τι είναι "Έτοιμο".
 
 Επιθεώρηση
-
-Οι χρήστες του Scrum πρέπει συχνά να επιθεωρούν τα συστατικά στοιχεία του Scrum και την πρόοδο προς ένα Sprint στόχο (goal) ώστε να αποκαλύψουν ανεπιθύμητες αποκλίσεις. Η επιθεώρηση δε θα πρέπει να είναι τόσο συχνή ώστε να εμποδίζει την εργασία. Οι επιθεωρήσεις είναι ευεργετικότατες όταν εκτελούνται επιμελώς από έμπειρους επιθεωρητές και στον χώρο όπου παράγεται το έργο.
+Οι χρήστες του Scrum θα πρέπει να επιθεωρούν συχνά τα αντικείμενα του Scrum και την
+πρόοδο προς το Στόχο του Sprint, ώστε να εντοπίζουν ανεπιθύμητες αποκλίσεις. Η επιθεώρηση
+δε θα πρέπει να είναι τόσο συχνή ώστε να εμποδίζει την εκτέλεση των εργασιών. Οι
+επιθεωρήσεις είναι πιο ευεργετικές όταν εκτελούνται με επιμέλεια από έμπειρους
+επιθεωρητές, στον χώρο εργασίας.
 
 Προσαρμογή
+Εάν κάποιος επιθεωρητής κρίνει ότι υπάρχει απόκλιση σε κάποια διαδικασία πέρα από τα
+αποδεκτά όρια, καθώς και ότι το αποτέλεσμα που θα προκύψει θα είναι μη αποδεκτό, η
+διαδικασία ή το υλικό υπό επεξεργασία θα πρέπει να προσαρμοστεί. Η προσαρμογή θα πρέπει
+να γίνει το συντομότερο δυνατό, ώστε τα περιοριστούν περαιτέρω αποκλίσεις.
 
-Εάν κάποιος επιθεωρητής προσδιορίσει ότι μία η περισσότερες απόψεις αποκλίνουν εκτός των αποδεκτών ορίων και ότι το  προκύπτον αποτέλεσμα θα είναι μη αποδεκτό, η διαδικασία η το υλικό υπό επεξεργασία πρέπει να προσαρμοστεί. Η κάθε προσαρμογή πρέπει να γίνει το συντομότερο δυνατό ώστε τα ελαχιστοποιηθεί περεταίρω απόκλιση.
+Το Scrum θεσμοθετεί τέσσερις δραστηριότητες για επιθεώρηση και προσαρμογή. Αυτές
+περιγράφονται στην ενότητα “Δραστηριότητες του Scrum” αυτού του κειμένου, και είναι οι
+παρακάτω:
 
-Το Scrum υπαγορεύει τέσσερα τυπικά συμβάντα για επιθεώρηση και προσαρμογή, όπως αυτά περιγράφονται στην ενότητα “Συμβάντα του Scrum” αυτού του κειμένου:
+• Σχεδιασμός του Sprint
+• Καθημερινό Scrum
+• Επισκόπηση του Sprint
+• Αναδρομή στο Sprint
 
-Σχεδιασμός Sprint (planning)
-Καθημερινό Scrum (daily)
-Αναθεώρηση Sprint (review)
-Ανασκόπηση Sprint (retrospective)
+Οι αξίες του Scrum
 
-Ομάδα Scrum
+Όταν η ομάδα Scrum ενστερνίζεται και λειτουργεί σύμφωνα με τις αξίες της δέσμευσης, του
+θάρρους, της εστίασης, της ειλικρίνειας και του σεβασμού, οι πυλώνες του Scrum - διαφάνεια,
+επιθεώρηση και προσαρμογή - πραγματώνονται και οικοδομούν εμπιστοσύνη για όλους. Τα
+μέλη της ομάδας Scrum μαθαίνουν και εξερευνούν τις αξίες αυτές, καθώς εκτελούν τις
+δραστηριότητες του Scrum, τους ρόλους και τα αντικείμενα.
 
-Η ομάδα Scrum αποτελείται από τον ιδιοκτήτη του προϊόντος (product owner), την ομάδα ανάπτυξής (development team) και ένας ειδήμονας Scrum (master). Οι ομάδες Scrum αυτό-οργανώνονται και είναι διαλειτουργικές (cross-functional). Οι αυτό-οργανωτικές ομάδες επιλέγουν πως να ολοκληρώσουν το έργο τους με τον βέλτιστο τρόπο, αντί να διευθύνονται από άλλους εκτός της ομάδας. Οι διαλειτουργικές ομάδες έχουν όλες τις απαιτούμενες δεξιότητες και ικανότητες να ολοκληρώσουν το έργο τους χωρίς να εξαρτώνται από άλλους εκτός της ομάδας. Το πρότυπο ομάδας στο Scrum είναι σχεδιασμένο ώστε να μεγιστοποιεί την ευελιξία, την δημιουργικότητα και την παραγωγικότητα.
+Η επιτυχημένη χρήση του Scrum εξαρτάται από την ανάπτυξη της ικανότητας των ανθρώπων να
+ζουν σύμφωνα με αυτές τις πέντε αξίες. Οι άνθρωποι δεσμεύονται προσωπικά για την επίτευξη
+των στόχων της ομάδας Scrum. Τα μέλη της ομάδας Scrum έχουν το θάρρος να κάνουν αυτό
+που πρέπει και να εργάζονται πάνω σε δύσκολα προβλήματα. Όλοι εστιάζουν στο έργο του
+Sprint και στους στόχους της ομάδας Scrum. Η ομάδα Scrum και τα ενδιαφερόμενα μέρη
+συμφωνούν να είναι ειλικρινείς και ανοικτοί σχετικά με τις εργασίες και τις προκλήσεις που
+αφορούν την εκτέλεση των εργασιών. Κάθε μέλος της ομάδας Scrum σέβεται τα υπόλοιπα μέλη
+και τα θεωρεί ικανά και ανεξάρτητα άτομα.
 
-Οι ομάδες Scrum παραδίδουν προϊόντα με τρόπο διαδραστικό και προσαυξητικό, μεγιστοποιώντας της ευκαιρίες για ανατροφοδότηση (feedback). Προσαυξητικές παραδώσεις του “έτοιμου” προϊόντος εξασφαλίζουν ότι μια, δυνητικά χρήσιμη έκδοση λειτουργικού προϊόντος, είναι πάντα διαθέσιμη.
+Η Ομάδα Scrum
 
-Ο Ιδιοκτήτης του Προϊόντος
+Η Ομάδα Scrum αποτελείται από τον Product Owner, την Ομάδα Ανάπτυξης και τον Scrum
+Master. Οι Ομάδες Scrum αυτό-οργανώνονται και έχουν δεξιότητες από διαφορετικές
+λειτουργικές περιοχές. Οι ομάδες που αυτο-οργανώνονται επιλέγουν οι ίδιες πώς να
+ολοκληρώσουν το έργο τους με τον βέλτιστο δυνατό τρόπο, αντί να διευθύνονται από άλλους,
+εκτός της ομάδας. Οι ομάδες με δεξιότητες από διαφορετικές λειτουργικές περιοχές κατέχουν
+όλες τις απαιτούμενες δεξιότητες ώστε να μπορούν να ολοκληρώσουν το έργο τους χωρίς να
+εξαρτώνται από άλλους εκτός της ομάδας. Το μοντέλο ομάδας στο Scrum είναι σχεδιασμένο
+έτσι, ώστε να μεγιστοποιεί την ευελιξία, την δημιουργικότητα και την παραγωγικότητα. Η
+ομάδα Scrum έχει αποδείξει ότι είναι όλο και περισσότερο αποτελεσματική σε όλες τις
+προαναφερθείσες χρήσεις και για οποιαδήποτε περίπλοκη εργασία.
 
-Ο Ιδιοκτήτης του Προϊόντος είναι υπεύθυνος για την μεγιστοποίηση της αξίας του προϊόντος και για το έργο της Ομάδας Ανάπτυξής. Ο τρόπος επίτευξης αυτού ποικίλει μεταξύ οργανισμών, ομάδων ανάπτυξής και ατόμων. 
+Οι Ομάδες Scrum παραδίδουν τα προϊόντα σε επαυξήσεις και χρησιμοποιώντας επαναλήψεις
+μεγιστοποιώντας τις ευκαιρίες για ανατροφοδότηση. Οι παραδόσεις με τη μορφή επαυξήσεων
+"Έτοιμου" προϊόντος, διασφαλίζουν ότι θα υπάρχει πάντα διαθέσιμη μια δυνητικά χρήσιμη
+λειτουργική έκδοση του προϊόντος.
 
-Ο Ιδιοκτήτης του Προϊόντος είναι ο μοναδικός υπεύθυνος για την διαχείριση του Προϊοντικού Αποθέματος (backlog). Η διαχείριση του  Προϊοντικού Αποθέματος περιλαμβάνει:
+O Product Owner
 
-Την αποτύπωση των στοιχείων του Προϊοντικού Αποθέματος με σαφήνεια.
-Την ταξινόμηση των στοιχείων του Προϊοντικού Αποθέματος για την βέλτιστη επίτευξη στόχων και αποστολών.
-Την βελτιστοποίηση της αξίας του έργου που παράγει η Ομάδα Ανάπτυξής.
-Την εξασφάλιση ότι το Προϊοντικό Απόθεμα είναι εμφανές, διαυγές και κατανοητό από όλους και ότι προβάλει τα επόμενα αντικείμενα εργασίας της Ομάδας Ανάπτυξής.
-Την εξασφάλιση ότι η Ομάδα Ανάπτυξής κατανοεί, στο επίπεδο που χρειάζεται, τα στοιχεία στο Προϊοντικό Απόθεμα.
+Ο Product Owner είναι υπεύθυνος για την μεγιστοποίηση της αξίας του προϊόντος που
+προκύπτει από το έργο που παράγει η Ομάδα Ανάπτυξης. Ο τρόπος που γίνεται αυτό μπορεί να
+διαφέρει σημαντικά από οργανισμό σε οργανισμό, από ομάδα σε ομάδα, και από άνθρωπο σε
+άνθρωπο.
 
-Ο Ιδιοκτήτης του Προϊόντος μπορεί να κάνει ο ίδιος την προαναφερθείσα εργασία ή μπορεί να την αναθέσει στην Ομάδα Ανάπτυξής. Και στις δύο περιπτώσεις ο Ιδιοκτήτης του Προϊόντος παραμένει υπόλογος.
+Ο Product Owner είναι ο μοναδικός υπεύθυνος για τη διαχείριση του Product Backlog. Η
+διαχείριση του Product Backlog περιλαμβάνει τα παρακάτω:
 
-Ο Ιδιοκτήτης του Προϊόντος είναι ένα πρόσωπο, όχι μια επιτροπή. Ο Ιδιοκτήτης του Προϊόντος μπορεί να αποτυπώνει τις επιθυμίες μιας επιτροπής στο Προϊοντικό Απόθεμα, αλλά οποιοσδήποτε θελήσει να αλλάξει τα στοιχεία του Προϊοντικού Αποθέματος θα πρέπει να απευθυνθεί στον Ιδιοκτήτη του Προϊόντος.
+• Να εκφράζει ξεκάθαρα τα στοιχεία του Product Backlog,
+• Να ταξινομεί τα στοιχεία του Product Backlog με σκοπό την εκπλήρωση των στόχων και
+  αποστολών, με τον καλύτερο δυνατό τρόπο,
+• Να βελτιστοποιεί την αξία του έργου που παράγει η Ομάδα Ανάπτυξης,
+• Να διασφαλίζει ότι το Product Backlog είναι ορατό, διαφανές και ξεκάθαρο σε όλους, και
+  ότι δείχνει τα επόμενα πράγματα στα οποία θα δουλέψει η Ομάδα Scrum, και τέλος
+• Να διασφαλίζει ότι η Ομάδα Ανάπτυξης κατανοεί τα στοιχεία του Product Backlog στο
+  βαθμό που απαιτείται.
 
-Για να επιτύχει στον ρόλο του ο Ιδιοκτήτης του Προϊόντος θα πρέπει ο οργανισμός στο σύνολό του να σέβεται τις αποφάσεις του. Αυτές οι αποφάσεις θα πρέπει να είναι εμφανείς στο περιεχόμενο και στην ταξινόμηση του Προϊοντικού Αποθέματος. Σε κανέναν δεν επιτρέπεται ζητήσει από την Ομάδα Ανάπτυξής να εργαστεί πάνω σε διαφορετικό σύνολο προδιαγραφών και η Ομάδα Ανάπτυξής απαγορεύεται να ακολουθήσει οδηγίες από κάποιον άλλο. 
+Την παραπάνω δουλειά μπορεί να την κάνει ο ίδιος ο Product Owner, ή να την αναθέσει στην
+Ομάδα Ανάπτυξης. Σε κάθε περίπτωση όμως, ο Product Owner παραμένει υπεύθυνος.
 
-Η Ομάδα Ανάπτυξής
+Ο Product Owner είναι άτομο, όχι επιτροπή. Ο Product Owner μπορεί να λαμβάνει υπ’ όψιν τις
+επιθυμίες μίας επιτροπής στο Product Backlog, αλλά όποιος θέλει να μεταβάλλει την
+προτεραιότητα ενός στοιχείου του Product Backlog, θα πρέπει να απευθυνθεί στον Product
+Owner.
 
-Η Ομάδα Ανάπτυξής αποτελείται από επαγγελματίες που επιτελούν το έργο της παράδοσης μιας δυνητικά ανακοινώσιμης (releasable) προσαύξησης (increment) του “έτοιμου” προϊόντος στο τέλος κάθε περιόδου Sprint. Η προσαύξηση παράγεται μόνο από τα μέλη της Ομάδας Ανάπτυξης.
+Για να επιτύχει o Product Owner, ολόκληρος ο οργανισμός πρέπει να σέβεται τις αποφάσεις
+του. Οι αποφάσεις του Product Owner αντανακλώνται στο περιεχόμενο και στην ταξινόμηση
+του Product Backlog. Κανείς δεν επιτρέπεται να υποχρεώσει την Ομάδα Ανάπτυξης να εργαστεί
+σε διαφορετικές απαιτήσεις.
 
-Η Ομάδα Ανάπτυξής είναι έτσι δομημένη και έχει την εξουσιοδοτημένη από τον οργανισμό ώστε να οργανώνει και να διαχειρίζεται το έργο της. Η συνεργία που προκύπτει βελτιστοποιεί της αποδοτικότητα και την αποτελεσματικότητα της Ομάδας Ανάπτυξής.
+Η Ομάδα Ανάπτυξης
 
-Οι Ομάδες Ανάπτυξής έχουν τα παρακάτω χαρακτηριστικά:
-Αυτό-οργανώνονται. Κανείς (ούτε ο Scrum Master) δεν υποδεικνύει στην Ομάδα Ανάπτυξής πως θα μετατρέψουν το Προϊοντικό Απόθεμα σε προσαυξήσεις δυνητικά ανακοινώσιμης λειτουργικότητας.
-Είναι διαλειτουργικές (cross-functional), διαθέτουν ομαδικά όλες τις απαιτούμενες δεξιότητες που χρειάζονται για να παράξουν μία προσαύξηση του προϊόντος.  
+Η Ομάδα Ανάπτυξης αποτελείται από επαγγελματίες οι οποίοι εκτελούν τις απαραίτητες
+εργασίες, ώστε στο τέλος κάθε Sprint να παραδώσουν μία δυνητικά παραδοτέα Επαύξηση
+"Έτοιμου" προϊόντος. Δεν υπάρχει όριο στον αριθμό των παραδόσεων που μπορούν να
+πραγματοποιηθούν κατά τη διάρκεια ενός Sprint, εφόσον τουλάχιστον μία από αυτές αποτελεί
+δυνητικά παραδοτέα επαύξηση προϊόντος. Η Επαύξηση δημιουργείται μόνο από μέλη της
+Ομάδας Ανάπτυξης.
 
-Το Scrum δεν αναγνωρίζει κανένα άλλο τίτλο στα μέλή της Ομάδας Ανάπτυξης εκτός από αυτό του προγραμματιστή (developer), ανεξάρτητα από το έργο που επιτελείται από αυτόν. Σε αυτόν τον κανόνα δεν υπάρχουν εξαιρέσεις.  
+Οι Ομάδες Ανάπτυξης δομούνται και ενδυναμώνονται από τον οργανισμό, με τέτοιο τρόπο
+ώστε να οργανώνουν και να διαχειρίζονται οι ίδιες τη δουλειά τους. Η συνέργεια που
+προκύπτει ως αποτέλεσμα βελτιστοποιεί την συνολική αποδοτικότητα και αποτελεσματικότητα
+της Ομάδας Ανάπτυξης.
 
-Το Scrum δεν επιτρέπει την δημιουργία υποομάδων μέσα στην Ομάδα Ανάπτυξής, ανεξάρτητα από τα συγκεκριμένα πεδία που πρέπει να καλυφθούν, όπως δοκιμών (testing) ή ανάλυσης προδιαγραφών (business analysis). Όυτε σε αυτόν τον κανόνα δεν υπάρχουν εξαιρέσεις
+Οι Ομάδες Ανάπτυξης έχουν τα ακόλουθα χαρακτηριστικά:
 
-Συγκεκριμένα μέλη της Ομάδας Ανάπτυξής ενδέχεται να έχουν εξειδικευμένες δεξιότητες και να εστιάζουν σε συγκεκριμένους τομείς, αλλά η Ομάδα Ανάπτυξής είναι υπόλογη στο σύνολό της.
+• Αυτο-οργανώνονται. Κανείς (ούτε και ο Scrum Master) δεν λέει στην Ομάδα Ανάπτυξης πώς
+  να μετατρέψει το Product Backlog σε Επαυξήσεις δυνητικά παραδοτέου προϊόντος.
 
-Το Μέγεθος της Ομάδας Ανάπτυξης
+• Έχουν δεξιότητες από διαφορετικές λειτουργικές περιοχές, και συνολικά ως ομάδα όλες τις
+  δεξιότητες που απαιτούνται για τη δημιουργία της Επαύξησης του προϊόντος.
 
-Το βέλτιστο μέγεθος της Ομάδας Ανάπτυξής είναι αρκετά μικρό ώστε να παραμένει ευέλικτη και αρκετά μεγάλη ώστε να ολοκληρώνει σημαντικό έργο ενός μιας περιόδου. Με λιγότερα από τρία μέλη, η αλληλεπίδραση μειώνεται, με αποτέλεσμα μικρότερα οφέλη παραγωγικότητας. Μικρότερες ομάδες ενδέχεται να αντιμετωπίσουν περιορισμούς δεξιοτήτων κατά την διάρκεια μιας περιόδου, με αποτέλεσμα να μην μπορέσει η Ομάδα Ανάπτυξής να παραδώσει μια δυνητικά ανακοινώσιμη προσαύξηση. Περισσότερα από εννέα μέλη απαιτούν πάρα πολύ συντονισμό. Μεγάλες Ομάδες Ανάπτυξης αυξάνουν την πολυπλοκότητα πάνω από τα επίπεδα διαχειρισιμότητας μιας εμπειρικής διαδικασίας. Οι ρόλοι του Ιδιοκτήτη του Προϊόντος και του Scrum Master δεν συνυπολογίζονται παρά μόνο στην περίπτωση που επιτελούν και αυτοί έργο ορισμένο στο απόθεμα της περιόδου Sprint.
+• Το Scrum δεν αναγνωρίζει κανέναν τίτλο για τα μέλη Ομάδας Ανάπτυξης, ανεξάρτητα από
+  την δουλειά που κάνει ο καθένας στην ομάδα.
 
-Ο Scrum Master
+• Το Scrum δεν αναγνωρίζει υποομάδες στην Ομάδα Ανάπτυξης, ανεξάρτητα του εάν
+  υπάρχουν συγκεκριμένοι τομείς με τους οποίους θα ασχοληθεί η Ομάδα, όπως οι δοκιμές,
+  η αρχιτεκτονική, η λειτουργία ή η επιχειρησιακή ανάλυση.
 
-Ο Scrum Master είναι υπεύθυνος για την διασφάλιση της κατανόησης και της εκτέλεσης του Scrum. Οι Scrum Masters το επιτυγχάνουν αυτό διασφαλίζοντας ότι η ομάδα Scrum εμμένει στην θεωρία, στις πρακτικές και στους κανόνες του Scrum.
+• Τα επιμέρους μέλη της Ομάδας Ανάπτυξης μπορεί να έχουν εξειδικευμένες ικανότητες και
+  τομείς στους οποίους επικεντρώνονται, αλλά η ευθύνη ανήκει συλλογικά σε ολόκληρη την
+  Ομάδα Ανάπτυξης.
 
-The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren't. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.
-Scrum Master Service to the Product Owner
-The Scrum Master serves the Product Owner in several ways, including:
-Finding techniques for effective Product Backlog management;
-Helping the Scrum Team understand the need for clear and concise Product Backlog items;
-Understanding product planning in an empirical environment;
-Ensuring the Product Owner knows how to arrange the Product Backlog to maximize value;
-Understanding and practicing agility; and,
-Facilitating Scrum events as requested or needed.
-Scrum Master Service to the Development Team
-The Scrum Master serves the Development Team in several ways, including:
-Coaching the Development Team in self-organization and cross-functionality;
-Helping the Development Team to create high-value products;
-Removing impediments to the Development Team's progress;
-Facilitating Scrum events as requested or needed; and,
-Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and understood.
-Scrum Master Service to the Organization
-The Scrum Master serves the organization in several ways, including:
-Leading and coaching the organization in its Scrum adoption;
-Planning Scrum implementations within the organization;
-Helping employees and stakeholders understand and enact Scrum and empirical product development;
-Causing change that increases the productivity of the Scrum Team; and,
-Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.
+Το μέγεθος της Ομάδας Ανάπτυξης
 
-Συμβάντα του Scrum
+Το βέλτιστο μέγεθος της Ομάδας Ανάπτυξης είναι αρκετά μικρό ώστε να παραμένει ευκίνητη
+και αρκετά μεγάλο ώστε να μπορεί να ολοκληρώνει σημαντικό έργο στο πλαίσιο ενός Sprint.
+Με λιγότερα από τρία μέλη στην Ομάδα Ανάπτυξης, η αλληλεπίδραση μειώνεται και τα οφέλη
+σε παραγωγικότητα είναι μικρότερα. Μικρότερες Ομάδες Ανάπτυξης ενδέχεται να
+αντιμετωπίσουν περιορισμούς ως προς τις δεξιότητές τους κατά τη διάρκεια του Sprint, με
+αποτέλεσμα η Ομάδα Ανάπτυξης να μην είναι σε θέση να παραδώσει μια δυνητικά παραδοτέα
+Επαύξηση. Η παρουσία περισσοτέρων των εννέα μελών απαιτεί υπερβολικά αυξημένο
+συντονισμό. Οι μεγάλες Ομάδες Ανάπτυξης δημιουργούν υπερβολική πολυπλοκότητα για να
+είναι χρήσιμη μια εμπειρική διαδικασία. Οι ρόλοι του Product Owner και του Scrum Master δεν
+περιλαμβάνονται στον αριθμό μελών της Ομάδας Ανάπτυξης, εκτός εάν παράλληλα εκτελούν
+και έργο από το Sprint Backlog.
 
-Prescribed events are used in Scrum to create regularity and to minimize the need for meetings not defined in Scrum. All events are time-boxed events, such that every event has a maximum duration. Once a Sprint begins, its duration is fixed and cannot be shortened or lengthened. The remaining events may end whenever the purpose of the event is achieved, ensuring an appropriate amount of time is spent without allowing waste in the process.
-Other than the Sprint itself, which is a container for all other events, each event in Scrum is a formal opportunity to inspect and adapt something. These events are specifically designed to enable critical transparency and inspection. Failure to include any of these events results in reduced transparency and is a lost opportunity to inspect and adapt.
-The Sprint
-The heart of Scrum is a Sprint, a time-box of one month or less during which a "Done", useable, and potentially releasable product Increment is created. Sprints best have consistent durations throughout a development effort. A new Sprint starts immediately after the conclusion of the previous Sprint.
-Sprints contain and consist of the Sprint Planning, Daily Scrums, the development work, the Sprint Review, and the Sprint Retrospective.
-During the Sprint:
-No changes are made that would endanger the Sprint Goal;
-Quality goals do not decrease; and,
-Scope may be clarified and re-negotiated between the Product Owner and Development Team as more is learned.
-Each Sprint may be considered a project with no more than a one-month horizon. Like projects, Sprints are used to accomplish something. Each Sprint has a definition of what is to be built, a design and flexible plan that will guide building it, the work, and the resultant product.
-Sprints are limited to one calendar month. When a Sprint's horizon is too long the definition of what is being built may change, complexity may rise, and risk may increase. Sprints enable predictability by ensuring inspection and adaptation of progress toward a Sprint Goal at least every calendar month. Sprints also limit risk to one calendar month of cost.
-Cancelling a Sprint
-A Sprint can be cancelled before the Sprint time-box is over. Only the Product Owner has the authority to cancel the Sprint, although he or she may do so under influence from the stakeholders, the Development Team, or the Scrum Master.
-A Sprint would be cancelled if the Sprint Goal becomes obsolete. This might occur if the company changes direction or if market or technology conditions change. In general, a Sprint should be cancelled if it no longer makes sense given the circumstances. But, due to the short duration of Sprints, cancellation rarely makes sense.
-When a Sprint is cancelled, any completed and "Done" Product Backlog items are reviewed. If part of the work is potentially releasable, the Product Owner typically accepts it. All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog. The work done on them depreciates quickly and must be frequently re-estimated.
-Sprint cancellations consume resources, since everyone has to regroup in another Sprint Planning to start another Sprint. Sprint cancellations are often traumatic to the Scrum Team, and are very uncommon.
-Sprint Planning
-The work to be performed in the Sprint is planned at the Sprint Planning. This plan is created by the collaborative work of the entire Scrum Team.
-Sprint Planning is time-boxed to a maximum of eight hours for a one-month Sprint. For shorter Sprints, the event is usually shorter. The Scrum Master ensures that the event takes place and that attendants understand its purpose. The Scrum Master teaches the Scrum Team to keep it within the time-box.
-Sprint Planning answers the following:
-What can be delivered in the Increment resulting from the upcoming Sprint?
-How will the work needed to deliver the Increment be achieved?
-Topic One: What can be done this Sprint?
-The Development Team works to forecast the functionality that will be developed during the Sprint. The Product Owner discusses the objective that the Sprint should achieve and the Product Backlog items that, if completed in the Sprint, would achieve the Sprint Goal. The entire Scrum Team collaborates on understanding the work of the Sprint.
-The input to this meeting is the Product Backlog, the latest product Increment, projected capacity of the Development Team during the Sprint, and past performance of the Development Team. The number of items selected from the Product Backlog for the Sprint is solely up to the Development Team. Only the Development Team can assess what it can accomplish over the upcoming Sprint.
-After the Development Team forecasts the Product Backlog items it will deliver in the Sprint, the Scrum Team crafts a Sprint Goal. The Sprint Goal is an objective that will be met within the Sprint through the implementation of the Product Backlog, and it provides guidance to the Development Team on why it is building the Increment.
-Topic Two: How will the chosen work get done?
-Having set the Sprint Goal and selected the Product Backlog items for the Sprint, the Development Team decides how it will build this functionality into a "Done" product Increment during the Sprint. The Product Backlog items selected for this Sprint plus the plan for delivering them is called the Sprint Backlog.
-The Development Team usually starts by designing the system and the work needed to convert the Product Backlog into a working product Increment. Work may be of varying size, or estimated effort. However, enough work is planned during Sprint Planning for the Development Team to forecast what it believes it can do in the upcoming Sprint. Work planned for the first days of the Sprint by the Development Team is decomposed by the end of this meeting, often to units of one day or less. The Development Team self-organizes to undertake the work in the Sprint Backlog, both during Sprint Planning and as needed throughout the Sprint.
-The Product Owner can help to clarify the selected Product Backlog items and make trade-offs.
-If the Development Team determines it has too much or too little work, it may renegotiate the selected Product Backlog items with the Product Owner. The Development Team may also invite other people to attend in order to provide technical or domain advice.
-By the end of the Sprint Planning, the Development Team should be able to explain to the Product Owner and Scrum Master how it intends to work as a self-organizing team to accomplish the Sprint Goal and create the anticipated Increment.
-Sprint Goal
-The Sprint Goal is an objective set for the Sprint that can be met through the implementation of Product Backlog. It provides guidance to the Development Team on why it is building the Increment. It is created during the Sprint Planning meeting. The Sprint Goal gives the Development Team some flexibility regarding the functionality implemented within the Sprint. The selected Product Backlog items deliver one coherent function, which can be the Sprint Goal. The Sprint Goal can be any other coherence that causes the Development Team to work together rather than on separate initiatives.
-As the Development Team works, it keeps the Sprint Goal in mind. In order to satisfy the Sprint Goal, it implements the functionality and technology. If the work turns out to be different than the Development Team expected, they collaborate with the Product Owner to negotiate the scope of Sprint Backlog within the Sprint.
-Daily Scrum
-The Daily Scrum is a 15-minute time-boxed event for the Development Team to synchronize activities and create a plan for the next 24 hours. This is done by inspecting the work since the last Daily Scrum and forecasting the work that could be done before the next one. The Daily Scrum is held at the same time and place each day to reduce complexity. During the meeting, the Development Team members explain:
-What did I do yesterday that helped the Development Team meet the Sprint Goal?
-What will I do today to help the Development Team meet the Sprint Goal?
-Do I see any impediment that prevents me or the Development Team from meeting the Sprint Goal?
-The Development Team uses the Daily Scrum to inspect progress toward the Sprint Goal and to inspect how progress is trending toward completing the work in the Sprint Backlog. The Daily Scrum optimizes the probability that the Development Team will meet the Sprint Goal. Every day, the Development Team should understand how it intends to work together as a self­organizing team to accomplish the Sprint Goal and create the anticipated Increment by the end of the Sprint. The Development Team or team members often meet immediately after the Daily Scrum for detailed discussions, or to adapt, or replan, the rest of the Sprint's work.
-The Scrum Master ensures that the Development Team has the meeting, but the Development Team is responsible for conducting the Daily Scrum. The Scrum Master teaches the Development Team to keep the Daily Scrum within the 15-minute time-box.
-The Scrum Master enforces the rule that only Development Team members participate in the Daily Scrum.
-Daily Scrums improve communications, eliminate other meetings, identify impediments to development for removal, highlight and promote quick decision-making, and improve the Development Team's level of knowledge. This is a key inspect and adapt meeting.
-Sprint Review
-A Sprint Review is held at the end of the Sprint to inspect the Increment and adapt the Product Backlog if needed. During the Sprint Review, the Scrum Team and stakeholders collaborate about what was done in the Sprint. Based on that and any changes to the Product Backlog during the Sprint, attendees collaborate on the next things that could be done to optimize value. This is an informal meeting, not a status meeting, and the presentation of the Increment is intended to elicit feedback and foster collaboration.
-This is a four-hour time-boxed meeting for one-month Sprints. For shorter Sprints, the event is usually shorter. The Scrum Master ensures that the event takes place and that attendants understand its purpose. The Scrum Master teaches all to keep it within the time-box.
-The Sprint Review includes the following elements:
-Attendees include the Scrum Team and key stakeholders invited by the Product Owner;
-The Product Owner explains what Product Backlog items have been "Done" and what has not been "Done";
-The Development Team discusses what went well during the Sprint, what problems it ran into, and how those problems were solved;
-The Development Team demonstrates the work that it has "Done" and answers questions about the Increment;
-The Product Owner discusses the Product Backlog as it stands. He or she projects likely completion dates based on progress to date (if needed);
-The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning;
-Review of how the marketplace or potential use of the product might have changed what is the most valuable thing to do next; and,
-Review of the timeline, budget, potential capabilities, and marketplace for the next anticipated release of the product.
-The result of the Sprint Review is a revised Product Backlog that defines the probable Product Backlog items for the next Sprint. The Product Backlog may also be adjusted overall to meet new opportunities.
-Sprint Retrospective
-The Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint.
-The Sprint Retrospective occurs after the Sprint Review and prior to the next Sprint Planning. This is a three-hour time-boxed meeting for one-month Sprints. For shorter Sprints, the event is usually shorter. The Scrum Master ensures that the event takes place and that attendants understand its purpose. The Scrum Master teaches all to keep it within the time-box. The Scrum Master participates as a peer team member in the meeting from the accountability over the Scrum process.
-The purpose of the Sprint Retrospective is to:
-Inspect how the last Sprint went with regards to people, relationships, process, and tools;
-Identify and order the major items that went well and potential improvements; and,
-Create a plan for implementing improvements to the way the Scrum Team does its work.
-The Scrum Master encourages the Scrum Team to improve, within the Scrum process framework, its development process and practices to make it more effective and enjoyable for the next Sprint. During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by adapting the definition of "Done" as appropriate.
-By the end of the Sprint Retrospective, the Scrum Team should have identified improvements that it will implement in the next Sprint. Implementing these improvements in the next Sprint is the adaptation to the inspection of the Scrum Team itself. Although improvements may be implemented at any time, the Sprint Retrospective provides a formal opportunity to focus on inspection and adaptation.
-Scrum Artifacts
-Scrum's artifacts represent work or value to provide transparency and opportunities for inspection and adaptation. Artifacts defined by Scrum are specifically designed to maximize transparency of key information so that everybody has the same understanding of the artifact.
+O Scrum Master
+
+Ο Scrum Master είναι υπεύθυνος για την προώθηση και υποστήριξη του Scrum όπως ορίζεται
+στον Οδηγό του Scrum. Οι Scrum Masters το κάνουν αυτό βοηθώντας τον καθένα να καταλάβει
+τη θεωρία, τις πρακτικές και τους κανόνες του Scrum.
+
+O Scrum Master είναι ένας υπηρέτης-ηγέτης για την Ομάδα Scrum. O Scrum Master βοηθάει
+αυτούς που βρίσκονται εκτός της Ομάδας Scrum να καταλάβουν ποιες από τις
+αλληλεπιδράσεις τους με την Ομάδα Scrum είναι χρήσιμες και ποιες όχι. Ο Scrum Master
+βοηθάει τους πάντες να αλλάξουν αυτές τις αλληλεπιδράσεις, ώστε να μεγιστοποιήσουν την
+αξία που δημιουργείται από την Ομάδα Scrum.
+
+Η υπηρεσία του Scrum Master προς τον Product Owner
+Ο Scrum Master υπηρετεί τον Product Owner με διάφορους τρόπους, συμπεριλαμβανομένων
+των παρακάτω:
+
+• Να εξασφαλίζει ότι οι στόχοι, το αντικείμενο των εργασιών και η θεματική περιοχή του
+  προϊόντος είναι κατανοητά από όλα τα μέλη της ομάδας Scrum όσο το δυνατόν καλύτερα.
+
+• Να βρίσκει τεχνικές για την αποδοτική διαχείριση του Product Backlog.
+• Να βοηθάει την Ομάδα Scrum να κατανοήσει την ανάγκη για ξεκάθαρα και ακριβή στοιχεία
+  στο Product Backlog.
+• Να κατανοήσει τον σχεδιασμό προϊόντων σε ένα εμπειρικό περιβάλλον.
+• Να διασφαλίσει ότι ο Product Owner ξέρει πώς να διατάσσει το Product Backlog ώστε να
+  μεγιστοποιεί την αξία.
+• Να κατανοεί και να εφαρμόζει την ευελιξία, και,
+• Να διευκολύνει τις δραστηριότητες του Scrum, όπως του ζητηθεί ή όπως απαιτηθεί
+
+Η υπηρεσία του Scrum Master προς την Ομάδα Ανάπτυξης
+Ο Scrum Master υπηρετεί την Ομάδα Ανάπτυξης με διάφορους τρόπους,
+συμπεριλαμβανομένων των παρακάτω:
+
+• Να καθοδηγεί την Ομάδα Ανάπτυξης στην αυτό-οργάνωση και ανάπτυξη δεξιοτήτων από
+  διαφορετικές λειτουργικές περιοχές.
+
+• Να βοηθάει την Ομάδα Ανάπτυξης να δημιουργεί προϊόντα υψηλής αξίας.
+• Να απομακρύνει τα εμπόδια στην πρόοδο της Ομάδας Ανάπτυξης.
+• Να διευκολύνει τις δραστηριότητες του Scrum, όπως του ζητηθεί ή όπως απαιτηθεί, και
+• Να καθοδηγεί την Ομάδα Ανάπτυξης σε περιβάλλοντα οργανισμών, στα οποία το Scrum
+  δεν έχει ακόμα κατανοηθεί και υιοθετηθεί πλήρως.
+
+Η υπηρεσία του Scrum Master προς τον Οργανισμό
+Ο Scrum Master υπηρετεί τον Οργανισμό με διάφορους τρόπους, συμπεριλαμβανομένων των
+παρακάτω:
+
+• Να ηγείται και να καθοδηγεί τον οργανισμό ως προς την υιοθέτηση του Scrum.
+• Να σχεδιάζει εφαρμογές του Scrum εντός του οργανισμού.
+• Να βοηθάει τους εργαζομένους και τα ενδιαφερόμενα μέρη να κατανοήσουν και να
+  εφαρμόσουν το Scrum και την εμπειρική ανάπτυξη προϊόντων.
+• Να προκαλεί αλλαγές που αυξάνουν την παραγωγικότητα της Ομάδας του Scrum, και
+• Να συνεργάζεται με άλλους Scrum Masters ώστε να αυξήσει την αποτελεσματικότητα της
+  εφαρμογής του Scrum εντός του οργανισμού.
+
+Δραστηριότητες του Scrum
+
+Στο Scrum χρησιμοποιούνται προκαθορισμένες δραστηριότητες με σκοπό να δημιουργήσουν
+μία κανονικότητα και να ελαχιστοποιήσουν την ανάγκη για συναντήσεις που δεν ορίζονται στο
+Scrum. Όλες οι δραστηριότητες είναι χρονο-περιορισμένες, με την έννοια ότι κάθε
+δραστηριότητα έχει μία μέγιστη διάρκεια. Όταν ένα Sprint ξεκινήσει, η διάρκειά του είναι
+ορισμένη και δεν μπορεί ούτε να μειωθεί, ούτε να αυξηθεί. Οι υπόλοιπες δραστηριότητες
+μπορούν να ολοκληρωθούν μόλις επιτευχθεί ο σκοπός τους, εφόσον έχει διασφαλιστεί ότι έχει
+αφιερωθεί επαρκής χρόνος, χωρίς ωστόσο να επιτρέπεται σπατάλη χρόνου στη διαδικασία.
+
+Εκτός από το ίδιο το Sprint, το οποίο και περιέχει όλες τις άλλες δραστηριότητες, η κάθε
+δραστηριότητα στο Scrum συνιστά μια θεσμοθετημένη ευκαιρία για επιθεώρηση και
+προσαρμογή. Οι δραστηριότητες αυτές είναι ειδικά σχεδιασμένες, ώστε να επιτρέπουν κριτική
+διαφάνεια και επιθεώρηση. Εάν οποιαδήποτε από αυτές τις δραστηριότητες παραλειφθεί, το
+αποτέλεσμα θα είναι μειωμένη διαφάνεια, ενώ θα έχει χαθεί μια ευκαιρία για επιθεώρηση και
+προσαρμογή.
+
+Το Sprint
+
+Η καρδιά του Scrum είναι το Sprint, ένας χρονο-περιορισμός ενός μήνα η λιγότερο, κατά τη
+διάρκεια του οποίου δημιουργείται μία "Έτοιμη", χρησιμοποιήσιμη και δυνητικά παραδοτέα
+Επαύξηση προϊόντος. Μία ή περισσότερες παραδόσεις μπορούν να πραγματοποιηθούν κατά τη
+διάρκεια του Sprint για να αποτελέσουν την Επαύξηση του προϊόντος. Τα Sprints είναι
+καλύτερο να έχουν σταθερή διάρκεια, καθ' όλη την περίοδο ανάπτυξης. Κάθε νέο Sprint
+ξεκινάει αμέσως μετά την ολοκλήρωση του προηγούμενου.
+
+Τα Sprints περιέχουν και αποτελούνται από τον Σχεδιασμό του Sprint, τα Καθημερινά Scrums,
+τις εργασίες ανάπτυξης, την Επισκόπηση του Sprint, και την Αναδρομή στο Sprint.
+
+Κατά την διάρκεια του Sprint:
+
+• Δεν γίνονται αλλαγές που θα έθεταν σε κίνδυνο τον Στόχο του Sprint,
+• Οι στόχοι που αφορούν θέματα ποιότητας δεν μειώνονται, και
+• Το αντικείμενο των εργασιών μπορεί να αποσαφηνιστεί και να αποτελέσει αντικείμενο
+  επαναδιαπραγμάτευσης μεταξύ του Product Owner και της Ομάδας Ανάπτυξης, καθώς
+  περισσότερα πράγματα γίνονται γνωστά.
+
+Κάθε Sprint μπορεί να θεωρηθεί ως έργο με ορίζοντα όχι μακρύτερο του ενός μήνα. Όπως τα
+έργα, έτσι και τα Sprints εκτελούνται με σκοπό την επίτευξη ενός στόχου. Κάθε Sprint περιέχει
+έναν ορισμό του τι θα δημιουργηθεί, ένα ευέλικτο πλάνο το οποίο θα καθοδηγήσει την
+ανάπτυξη, τη δουλειά υλοποίησης, και το παραγόμενο προϊόν.
+
+Τα Sprints περιορίζονται χρονικά στον ένα ημερολογιακό μήνα. Εάν ο ορίζοντας ενός Sprint
+είναι πολύ μακρινός, ο ορισμός του τι αναπτύσσεται μπορεί να μεταβληθεί, ενώ η
+πολυπλοκότητα και το ρίσκο ενδέχεται να αυξηθούν. Τα Sprints προάγουν την
+προβλεψιμότητα, με το να διασφαλίζουν την επιθεώρηση και την προσαρμογή της προόδου
+προς το στόχο τουλάχιστον μία φορά κάθε ημερολογιακό μήνα. Τα Sprints επίσης περιορίζουν
+το ρίσκο στο κόστος του ενός, το πολύ, ημερολογιακού μήνα.
+
+Ακυρώνοντας ένα Sprint
+Ένα Sprint μπορεί να ακυρωθεί προτού λήξει ο χρονο-περιορισμός του. Μόνο ο Product Owner
+έχει την εξουσία να ακυρώσει ένα Sprint, παρότι αυτό μπορεί να το κάνει μετά από
+πρωτοβουλία ή προτροπή των ενδιαφερομένων μερών, της Ομάδας Ανάπτυξης, ή του Scrum
+Master.
+
+Ένα Sprint ακυρώνεται εάν ο Στόχος του Sprint γίνει παρωχημένος. Αυτό θα μπορούσε να
+συμβεί στην περίπτωση που η εταιρεία αλλάξει κατεύθυνση, ή αλλάξουν οι συνθήκες της
+αγοράς ή της τεχνολογίας. Γενικά, ένα Sprint θα πρέπει να ακυρωθεί εάν πλέον - δεδομένων
+των συνθηκών - δεν έχει νόημα. Όμως, λόγω της μικρής διάρκειας των Sprints, η ακύρωση
+σπάνια έχει νόημα.
+
+Όταν ένα Sprint ακυρώνεται, γίνεται επισκόπηση όλων των "Έτοιμων" στοιχείων του Product
+Backlog. Εάν μέρος της δουλειάς είναι δυνητικά παραδοτέο, ο Product Owner συνήθως το
+αποδέχεται. Όλα τα ανολοκλήρωτα στοιχεία του Product Backlog επανεκτιμώνται και
+τοποθετούνται πίσω στο Product Backlog. Η δουλειά που έχει γίνει πάνω σε αυτά χάνει
+γρήγορα την αξία της, και πρέπει συχνά να επανεκτιμάται.
+
+Οι ακυρώσεις των Sprints καταναλώνουν πόρους, καθώς όλοι πρέπει να ανασυνταχθούν για να
+πάνε σε ένα νέο Σχεδιασμό Sprint, ώστε να ξεκινήσουν ένα νέο Sprint. Οι ακυρώσεις είναι
+συχνά τραυματικές για την Ομάδα Scrum και δεν είναι καθόλου συνηθισμένες.
+
+Σχεδιασμός του Sprint
+
+Στο Σχεδιασμό του Sprint οργανώνεται η δουλειά που πρόκειται να πραγματοποιηθεί στα
+πλαίσια του Sprint. Το πλάνο αυτό προκύπτει ως αποτέλεσμα συνεργασίας ολόκληρης της
+Ομάδας Scrum.
+
+Για ένα Sprint διάρκειας ενός μήνα, ο χρονο-περιορισμός του σχεδιασμού Sprint είναι 8 ώρες.
+Για Sprints μικρότερης διάρκειας, η δραστηριότητα είναι συνήθως συντομότερη. Ο Scrum
+Master διασφαλίζει ότι η δραστηριότητα διεξάγεται, και ότι οι συμμετέχοντες κατανοούν τον
+σκοπό για τον οποίο γίνεται. Ο Scrum Master μαθαίνει στην Ομάδα Scrum να τηρεί τη διάρκεια
+εντός του χρονο-περιορισμού της.
+
+Ο Σχεδιασμός του Sprint απαντά στα ακόλουθα ερωτήματα:
+
+• Τι μπορεί να παραδοθεί στην Επαύξηση που θα προκύψει από το επικείμενο Sprint;
+• Με ποιο τρόπο θα πραγματοποιηθεί το έργο που απαιτείται για να παραδοθεί η Επαύξηση;
+
+Θέμα 1: Τι μπορεί να γίνει σε αυτό το Sprint;
+Η Ομάδα Ανάπτυξης εργάζεται για να προβλέψει την λειτουργικότητα που θα αναπτυχθεί κατά
+τη διάρκεια του Sprint. Ο Product Owner πραγματεύεται τον στόχο που πρέπει να επιτευχθεί,
+καθώς και τα στοιχεία εκείνα του Product Backlog τα οποία, εάν ολοκληρωθούν μέσα στο
+Sprint, θα εκπληρώσουν το Στόχο του Sprint. Ολόκληρη η Ομάδα Scrum συνεργάζεται με σκοπό
+την κατανόηση των εργασιών του Sprint.
+
+Τα δεδομένα εισόδου σε αυτήν την συνάντηση είναι το Product Backlog, η τελευταία Επαύξηση
+του προϊόντος, η προβλεπόμενη παραγωγή της Ομάδας Ανάπτυξης για την διάρκεια του Sprint,
+και η προηγούμενη παραγωγή της Ομάδας Ανάπτυξης. Ο αριθμός των στοιχείων του Product
+Backlog που θα επιλεχθούν για το Sprint καθορίζεται αποκλειστικά από την Ομάδα Ανάπτυξης.
+Μόνο η Ομάδα Ανάπτυξης μπορεί να αξιολογήσει τι μπορεί να επιτύχει στο επερχόμενο Sprint.
+
+Κατά τη διάρκεια του Σχεδιασμού του Sprint η Ομάδα Scrum φτιάχνει επίσης τον Στόχο του
+Sprint. Ο Στόχος του Sprint, ο οποίος θα επιτευχθεί μέσα στο Sprint μέσω της υλοποίησης του
+Product Backlog, παρέχει καθοδήγηση στην Ομάδα Ανάπτυξης σχετικά με το σκοπό για τον
+οποίο αναπτύσσει την Επαύξηση.
+
+Θέμα 2: Πώς θα εκτελεστούν οι επιλεγμένες εργασίες;
+Αφού θέσει το Στόχο του Sprint και επιλέξει τα στοιχεία του Product Backlog για το Sprint, η
+Ομάδα Ανάπτυξης αποφασίζει το πώς θα μετουσιώσει την λειτουργικότητα αυτή σε μία
+"Έτοιμη" Επαύξηση προϊόντος κατά την διάρκεια του Sprint. Τα στοιχεία του Product Backlog
+που έχουν επιλεγεί για αυτό το Sprint, μαζί με το σχεδιασμό για την παράδοσή τους,
+ονομάζονται Sprint Backlog.
+
+Η Ομάδα Ανάπτυξης συνήθως αρχίζει σχεδιάζοντας το σύστημα και τις εργασίες που χρειάζεται
+να εκτελέσει για να μετατρέψει το Product Backlog σε μια λειτουργική Επαύξηση προϊόντος. Οι
+εργασίες μπορεί να είναι διαφορετικών μεγεθών ή εκτιμώμενης προσπάθειας. Παρόλα αυτά, η
+δουλειά που προγραμματίζεται κατά την διάρκεια ενός Σχεδιασμού Sprint είναι αρκετή ώστε
+να καλύψει όλα αυτά που η Ομάδα Ανάπτυξης πιστεύει ότι μπορεί να κάνει στο επερχόμενο
+Sprint. Η δουλειά που έχει προγραμματιστεί για τις πρώτες μέρες του Sprint από την Ομάδα
+Ανάπτυξης αναλύεται μέχρι το τέλος της συνάντησης, συχνά σε επίπεδο ημέρας ή λιγότερο. Η
+Ομάδα Ανάπτυξης αυτο-οργανώνεται για να διεκπεραιώσει τις εργασίες στο Sprint Backlog,
+τόσο κατά τη διάρκεια του Σχεδιασμού του Sprint, όσο και κατά την διάρκεια ολόκληρου του
+Sprint.
+
+Ο Product Owner μπορεί να βοηθήσει στην αποσαφήνιση των επιλεγμένων στοιχείων του
+Product Backlog και να κάνει συμβιβασμούς. Εάν η Ομάδα Ανάπτυξης αποφασίσει ότι έχει
+πάρα πολλή ή πολύ λίγη δουλειά, μπορεί να επαναδιαπραγματευθεί τα επιλεγμένα στοιχεία
+του Product Backlog με τον Product Owner. Η Ομάδα Ανάπτυξης μπορεί επίσης να προσκαλέσει
+και άλλους ανθρώπους που θα παρέχουν τεχνικές ή εξειδικευμένες συμβουλές.
+
+Με το τέλος του Σχεδιασμού του Sprint, η Ομάδα Ανάπτυξης θα πρέπει να είναι σε θέση να
+εξηγήσει στον Product Owner και τον Scrum Master με ποιον τρόπο σκοπεύει να δουλέψει ως
+αυτο-οργανωμένη ομάδα για να επιτύχει τον Στόχο του Sprint και να δημιουργήσει την
+αναμενόμενη Επαύξηση.
+
+Ο Στόχος του Sprint
+
+Ο Στόχος του Sprint είναι ένας σκοπός που μπορεί να επιτευχθεί μέσω της υλοποίησης του
+Product Backlog. Παρέχει καθοδήγηση στην Ομάδα Ανάπτυξης σχετικά με το γιατί υλοποιεί την
+Επαύξηση. Δημιουργείται κατά την διάρκεια της συνάντησης για τον Σχεδιασμό του Sprint. Ο
+Στόχος του Sprint επιτρέπει στην Ομάδα Ανάπτυξης σχετική ευελιξία αναφορικά με τη
+λειτουργικότητα που θα υλοποιηθεί εντός του Sprint. Τα επιλεγμένα στοιχεία του Product
+Backlog σχηματίζουν μία συνεκτική λειτουργία, που μπορεί να είναι ο Στόχος του Sprint. Ο
+Στόχος του Sprint μπορεί να είναι οποιαδήποτε άλλος συνεκτικός στόχος βοηθάει την Ομάδα
+Ανάπτυξης να εργάζεται συλλογικά αντί με ατομικές πρωτοβουλίες.
+
+Καθώς η Ομάδα Ανάπτυξης εργάζεται, λαμβάνει συνεχώς υπ' όψιν τον Στόχο του Sprint. Για να
+εκπληρώσει τον Στόχο του Sprint, υλοποιεί τη λειτουργικότητα και την τεχνολογία. Εάν οι
+εργασίες εξελιχθούν σε κάτι διαφορετικό από αυτό που ανέμενε η Ομάδα Ανάπτυξης, αυτή
+συνεργάζεται με τον Product Owner για να διαπραγματευθεί το συνολικό αντικείμενο του
+έργου που θα υλοποιηθεί εντός του Sprint.
+
+Καθημερινό Scrum
+
+Το Καθημερινό Scrum είναι μια χρονο-περιορισμένη δραστηριότητα 15 λεπτών για την Ομάδα
+Ανάπτυξης ξεκινώντας από την πρώτη ημέρα του Sprint. H Ομάδα Ανάπτυξης σχεδιάζει και
+επανασχεδιάζει τις εργασίες για τις επόμενες 24 ώρες ώστε να βελτιστοποιήσει την συνεργασία
+και την απόδοση της ομάδας. Αυτό γίνεται με την επιθεώρηση των εργασιών που έγιναν από το
+τελευταίο Καθημερινό Scrum και μετά (εκτός της πρώτης μέρας του Sprint) και με την
+πρόβλεψη των εργασιών που θα μπορούσαν να γίνουν πριν από το επόμενο Καθημερινό
+Scrum. Το Καθημερινό Scrum πραγματοποιείται κάθε μέρα την ίδια ώρα και στο ίδιο μέρος,
+ώστε να μειωθεί η πολυπλοκότητα.
+
+H Ομάδα Ανάπτυξης χρησιμοποιεί το Καθημερινό Scrum για να επιθεωρήσει την πρόοδο προς
+τον Στόχο του Sprint και να επιθεωρήσει την εξέλιξη της προόδου προς την ολοκλήρωση των
+εργασιών του Sprint Backlog. Το Καθημερινό Scrum βελτιστοποιεί την πιθανότητα η Ομάδα
+Ανάπτυξης να επιτύχει τον Στόχο του Sprint. Κάθε μέρα, η Ομάδα Ανάπτυξης θα πρέπει να
+κατανοεί το πώς σκοπεύει να εργαστεί από κοινού, ως αυτό-οργανωμένη ομάδα, ώστε να
+εκπληρώσει τον Στόχο του Sprint και να δημιουργήσει την αναμενόμενη Επαύξηση μέχρι το
+τέλος του Sprint.
+
+Η δομή της συνάντησης καθορίζεται από την Ομάδα Ανάπτυξης. Αυτή μπορεί να διεξαχθεί με
+διάφορους τρόπους, εφόσον τα μέλη της ομάδας εστιάζουν στην πρόοδο προς τον Στόχο του
+Sprint. Ορισμένες Ομάδες θα χρησιμοποιούν ερωτήσεις, ενώ άλλες θα βασίζονται περισσότερο
+σε συζητήσεις. Ακολουθεί ένα παράδειγμα του τι θα μπορούσε να χρησιμοποιηθεί:
+
+• Τι έκανα χθες, που βοήθησε την Ομάδα Ανάπτυξης να επιτύχει τον Στόχο του Sprint;
+• Τι θα κάνω σήμερα για να βοηθήσω την Ομάδα Ανάπτυξης να επιτύχει τον Στόχο του Sprint;
+• Βλέπω κάποιο εμπόδιο το οποίο αποτρέπει εμένα ή την Ομάδα Ανάπτυξης από την
+  επίτευξη του Στόχου του Sprint;
+
+Η Ομάδα Ανάπτυξης ή τα μέλη της ομάδας συχνά συναντιούνται αμέσως μετά το Καθημερινό
+Scrum για λεπτομερείς συζητήσεις, ή για να προσαρμόσουν ή για να επανασχεδιάσουν το
+υπόλοιπο των εργασιών του Sprint.
+
+Ο Scrum Master διασφαλίζει ότι η Ομάδα Ανάπτυξης θα κάνει την συνάντηση, αλλά υπεύθυνη
+για την διενέργεια του Καθημερινού Scrum είναι η ίδια η Ομάδα Ανάπτυξης. Ο Scrum Master
+μαθαίνει την Ομάδα Ανάπτυξης να διατηρεί το Καθημερινό Scrum εντός του χρονικού
+περιορισμού των 15 λεπτών.
+
+Το Καθημερινό Scrum είναι μια εσωτερική συνάντηση της Ομάδας Ανάπτυξης. Αν παρίστανται
+άλλοι, ο Scrum Master διασφαλίζει ότι δεν διαταράσσουν την συνάντηση.
+
+Τα Καθημερινά Scrums βελτιώνουν την επικοινωνία, εξαλείφουν την ανάγκη για άλλες
+συναντήσεις, εντοπίζουν εμπόδια για την ανάπτυξη που πρέπει να απομακρυνθούν,
+προβάλλουν και προωθούν την γρήγορη λήψη αποφάσεων και βελτιώνουν το επίπεδο γνώσης
+της Ομάδας Ανάπτυξης. Πρόκειται για μια καίρια συνάντηση επιθεώρησης και προσαρμογής.
+
+Επισκόπηση του Sprint
+
+Στο τέλος του Sprint, διοργανώνεται η συνάντηση Επισκόπησης του Sprint, με σκοπό την
+επιθεώρηση της Επαύξησης και την προσαρμογή του Product Backlog, εφόσον απαιτείται. Κατά
+τη διάρκεια της Επισκόπησης του Sprint, η Ομάδα Scrum και τα ενδιαφερόμενα μέρη
+συνεργάζονται σε σχέση με τα αποτελέσματα της περιόδου. Με βάση αυτά, καθώς και όποιες
+αλλαγές προέκυψαν στο Product Backlog κατά τη διάρκεια του Sprint, οι συμμετέχοντες στην
+Επισκόπηση συνεργάζονται πάνω στο επόμενα πράγματα που θα μπορούσαν να γίνουν ώστε
+να βελτιστοποιηθεί η αξία του προϊόντος. Πρόκειται για ανεπίσημη συνάντηση, όχι για
+αναφορά προόδου, ενώ η παρουσίαση της Επαύξησης γίνεται με σκοπό την ενθάρρυνση
+υποβολής σχολίων και την προαγωγή της συνεργασίας.
+
+Η Επισκόπηση είναι χρονο-περιορισμένη το πολύ σε τέσσερις ώρες για μηνιαία Sprints. Για
+Sprints μικρότερης διάρκειας, είναι συνήθως συντομότερη. Ο Scrum Master φροντίζει η
+επισκόπηση να γίνεται πάντα, και οι συμμετέχοντες να κατανοούν πλήρως το σκοπό της. Ο
+Scrum Master μαθαίνει σε όλους τους συμμετέχοντες να την ολοκληρώνουν μέσα στα
+προκαθορισμένα χρονικά πλαίσια.
+
+Η Επισκόπηση του Sprint περιλαμβάνει τα παρακάτω στοιχεία:
+
+• Στη συνάντηση συμμετέχει η Ομάδα Scrum καθώς και τα κύρια ενδιαφερόμενα μέρη, οι
+  οποίοι προσκαλούνται από τον Product Owner.
+
+• Ο Product Owner εξηγεί ποια από τα στοιχεία του Product Backlog είναι, και ποια δεν είναι
+  “Έτοιμα”.
+
+• Η Ομάδα Ανάπτυξης συζητά τί πήγε καλά κατά τη διάρκεια του Sprint, ποια προβλήματα
+  αντιμετώπισε και πώς αυτά επιλύθηκαν.
+
+• Η Ομάδα Ανάπτυξης επιδεικνύει τα “Έτοιμα” αποτελέσματα της δουλειάς της και απαντά
+  σε ερωτήσεις σχετικές με την Επαύξηση. Αν ο ορισμός του “Έτοιμου” περιλαμβάνει μία ή
+  περισσότερες παραδόσεις λειτουργικοτήτων του προϊόντος, αυτές παρουσιάζονται και
+  επιθεωρούνται.
+
+• Ο Product Owner αναλύει το Product Backlog στην κατάσταση που βρίσκεται εκείνη τη
+  χρονική στιγμή. Επίσης, εφόσον απαιτείται, αναφέρει τις προβλεπόμενες ημερομηνίες
+  στόχους και παράδοσης με βάση την πρόοδο μέχρι εκείνο το χρονικό σημείο (εφόσον
+  απαιτείται).
+
+• Όλοι οι συμμετέχοντες συνεργάζονται με θέμα τις επόμενες ενέργειες. Έτσι, η Επισκόπηση
+  του Sprint παρέχει πολύτιμα στοιχεία στον επερχόμενο Σχεδιασμό του Sprint.
+
+• Επισκόπηση του πώς η αγορά ή οι δυνητικές χρήσεις του προϊόντος μπορεί να έχουν
+  μεταβάλει το ποιο είναι το επόμενο πράγμα που έχει μεγαλύτερη αξία να γίνει, και
+
+• Επισκόπηση του χρονοδιαγράμματος, του προϋπολογισμού, των δυνατοτήτων και της
+  αγοράς για την επόμενη αναμενόμενη έκδοση λειτουργικότητας ή δυνατοτήτων του
+  προϊόντος.
+
+Το αποτέλεσμα της Επισκόπησης του Sprint είναι το αναθεωρημένο Product Backlog το οποίο
+καθορίζει τα επικρατέστερα στοιχεία για υλοποίηση στο επόμενο Sprint. Το Product Backlog
+μπορεί να αναπροσαρμοστεί συνολικά, ώστε να μας επιτρέπει να εκμεταλλευθούμε νέες
+ευκαιρίες.
+
+Αναδρομή στο Sprint
+
+Η Αναδρομή στο Sprint είναι μια ευκαιρία για την Ομάδα Scrum να επιθεωρήσει τον εαυτό της
+και να δημιουργήσει ένα πλάνο βελτιώσεων το οποίο θα εκτελέσει κατά τη διάρκεια του
+επόμενου Sprint.
+
+Η Αναδρομή στο Sprint γίνεται μετά την Επισκόπηση του Sprint και πριν τον επόμενο Σχεδιασμό
+του Sprint. Είναι χρονο-περιορισμένη συνάντηση το πολύ τριών ωρών για μηνιαία Sprints. Για
+Sprint μικρότερης διάρκειας είναι συνήθως μικρότερη. Ο Scrum Master διασφαλίζει ότι η
+δραστηριότητα γίνεται, και ότι οι συμμετέχοντες κατανοούν το σκοπό της.
+
+Ο Scrum Master διασφαλίζει ότι η συνάντηση είναι θετική και παραγωγική. Ο Scrum Master
+μαθαίνει σε όλους πώς να την ολοκληρώνουν μέσα στα προκαθορισμένα χρονικά πλαίσια. Ο
+Scrum Master συμμετέχει στη συνάντηση ως ισότιμο μέλος της ομάδας με την ιδιότητα του
+υπεύθυνου της εφαρμογής της διαδικασίας του Scrum.
+
+Ο σκοπός της Αναδρομής στο Sprint είναι:
+
+• Να επιθεωρήσει πώς πήγε το τελευταίο Sprint όσον αφορά τους ανθρώπους, τις σχέσεις, τη
+  διαδικασία και τα εργαλεία.
+
+• Να εντοπίσει και να ταξινομήσει τα πιο σημαντικά στοιχεία που πήγαν καλά, καθώς και
+  πιθανές βελτιώσεις, και
+
+• Να δημιουργήσει ένα πλάνο εφαρμογής των βελτιώσεων αναφορικά με τον τρόπο που
+  λειτουργεί η Ομάδα Scrum.
+
+Ο Scrum Master ενθαρρύνει την Ομάδα Scrum να βελτιώνει, στο πλαίσιο της διαδικασίας
+Scrum, τις πρακτικές και τη διαδικασία ανάπτυξής της, προκειμένου να γίνουν πιο
+αποτελεσματικές και ευχάριστες στο επόμενο Sprint. Κατά τη διάρκεια κάθε Αναδρομής στο
+Sprint, η Ομάδα Scrum σχεδιάζει τρόπους για να αυξήσει την ποιότητα του προϊόντος
+βελτιώνοντας τις εργασιακές διαδικασίες ή προσαρμόζοντας κατάλληλα τον ορισμό του
+"Έτοιμου", αν χρειάζεται και χωρίς να έρχεται σε αντίθεση με τα οργανωτικά ή προϊοντικά
+πρότυπα.
+
+Μέχρι το τέλος της Αναδρομής στο Sprint, η Ομάδα Scrum θα πρέπει να έχει εντοπίσει
+βελτιώσεις τις οποίες θα εφαρμόσει στο επόμενο Sprint. Η εφαρμογή αυτών των βελτιώσεων
+στο επόμενο Sprint αποτελεί την προσαρμογή στην επιθεώρηση αυτής καθ’ εαυτήν της Ομάδας
+Scrum. Αν και βελτιώσεις μπορούν να εφαρμόζονται ανά πάσα στιγμή, η Αναδρομή στο Sprint
+δίνει μία θεσμοθετημένη ευκαιρία στην ομάδα να εστιάσει στην επιθεώρηση και την
+προσαρμογή.
+
+Αντικείμενα του Scrum
+
+Τα Αντικείμενα του Scrum αντιπροσωπεύουν εργασία ή αξία, που προσδίδει διαφάνεια και
+προσφέρει ευκαιρίες για επιθεώρηση και προσαρμογή. Τα Αντικείμενα που ορίζονται στο
+Scrum είναι ειδικά σχεδιασμένα για να επιτυγχάνουν μέγιστη διαφάνεια των σημαντικότερων
+πληροφοριών και τελικά κοινή κατανόηση του κάθε αντικειμένου από όλους.
+
 Product Backlog
-The Product Backlog is an ordered list of everything that might be needed in the product and is the single source of requirements for any changes to be made to the product. The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.
-A Product Backlog is never complete. The earliest development of it only lays out the initially known and best-understood requirements. The Product Backlog evolves as the product and the environment in which it will be used evolves. The Product Backlog is dynamic; it constantly changes to identify what the product needs to be appropriate, competitive, and useful. As long as a product exists, its Product Backlog also exists.
-The Product Backlog lists all features, functions, requirements, enhancements, and fixes that constitute the changes to be made to the product in future releases. Product Backlog items have the attributes of a description, order, estimate and value.
-As a product is used and gains value, and the marketplace provides feedback, the Product Backlog becomes a larger and more exhaustive list. Requirements never stop changing, so a Product Backlog is a living artifact. Changes in business requirements, market conditions, or technology may cause changes in the Product Backlog.
-Multiple Scrum Teams often work together on the same product. One Product Backlog is used to describe the upcoming work on the product. A Product Backlog attribute that groups items may then be employed.
-Product Backlog refinement is the act of adding detail, estimates, and order to items in the Product Backlog. This is an ongoing process in which the Product Owner and the Development Team collaborate on the details of Product Backlog items. During Product Backlog refinement, items are reviewed and revised. The Scrum Team decides how and when refinement is done. Refinement usually consumes no more than 10% of the capacity of the Development Team. However, Product Backlog items can be updated at any time by the Product Owner or at the Product Owner's discretion.
-Higher ordered Product Backlog items are usually clearer and more detailed than lower ordered ones. More precise estimates are made based on the greater clarity and increased detail; the lower the order, the less detail. Product Backlog items that will occupy the Development Team for the upcoming Sprint are refined so that any one item can reasonably be "Done" within the Sprint time-box. Product Backlog items that can be "Done" by the Development Team within one Sprint are deemed "Ready" for selection in a Sprint Planning. Product Backlog items usually acquire this degree of transparency through the above described refining activities.
-The Development Team is responsible for all estimates. The Product Owner may influence the Development Team by helping it understand and select trade-offs, but the people who will perform the work make the final estimate.
-Monitoring Progress Toward a Goal
-At any point in time, the total work remaining to reach a goal can be summed. The Product Owner tracks this total work remaining at least every Sprint Review. The Product Owner compares this amount with work remaining at previous Sprint Reviews to assess progress toward completing projected work by the desired time for the goal. This information is made transparent to all stakeholders.
-Various projective practices upon trending have been used to forecast progress, like burn- downs, burn-ups, or cumulative flows. These have proven useful. However, these do not replace the importance of empiricism. In complex environments, what will happen is unknown. Only what has happened may be used for forward-looking decision-making.
+
+Το Product Backlog είναι μια ταξινομημένη λίστα που περιέχει οτιδήποτε είναι γνωστό ότι
+χρειάζεται στο προϊόν. Αποτελεί τη μοναδική πηγή προδιαγραφών για αλλαγές που θα γίνουν
+στο προϊόν. Ο Product Owner είναι υπεύθυνος για το Product Backlog, συμπεριλαμβανομένων
+του περιεχόμενου, της διαθεσιμότητας και της ταξινόμησής του.
+
+Το Product Backlog δεν είναι ποτέ πλήρες. Στην πρώιμη μορφή του περιέχει τις αρχικά γνωστές
+και περισσότερο κατανοητές προδιαγραφές. Το Product Backlog εξελίσσεται παράλληλα με το
+προϊόν και το περιβάλλον εντός του οποίου αυτό χρησιμοποιείται. Το Product Backlog είναι
+δυναμικό· αλλάζει συνεχώς για να σηματοδοτήσει τι χρειάζεται το προϊόν για να είναι
+κατάλληλο, ανταγωνιστικό, και χρήσιμο. Όσο υπάρχει το προϊόν, υπάρχει και το Product
+Backlog του.
+
+Το Product Backlog αναφέρει όλα τα χαρακτηριστικά, τις λειτουργίες, τις απαιτήσεις, τις
+προσθήκες και τις διορθώσεις, που συνιστούν τις αλλαγές που θα γίνουν σε μελλοντικές
+εκδόσεις του προϊόντος. Τα στοιχεία του Product Backlog έχουν τις εξής ιδιότητες: περιγραφή,
+σειρά προτεραιότητας, εκτίμηση και αξία. Συχνά, τα στοιχεία του Product Backlog περιέχουν
+κείμενα περιγραφής των ελέγχων που θα αποδεικνύουν την ολοκλήρωσή τους όταν είναι
+έτοιμα.
+
+Καθώς το προϊόν χρησιμοποιείται, αποκτάει αξία, και παίρνει ανατροφοδότηση από την αγορά,
+το Product Backlog μεγαλώνει και γίνεται λεπτομερέστερο. Οι απαιτήσεις δεν σταματούν να
+μεταβάλλονται, συνεπώς το Product Backlog είναι ένα ζωντανό αντικείμενο. Οι αλλαγές στις
+επιχειρηματικές απαιτήσεις, στην κατάσταση της αγοράς ή στην τεχνολογία, μπορούν να
+επιφέρουν τροποποιήσεις στο Product Backlog.
+
+Συχνά, πολλαπλές Ομάδες Scrum δουλεύουν μαζί στο ίδιο προϊόν· ένα ενιαίο Product Backlog
+χρησιμοποιείται για να περιγράψει την επερχόμενη εργασία για το προϊόν. Σε αυτή την
+περίπτωση μπορεί να προστεθεί μια επιπλέον ιδιότητα που ομαδοποιεί στοιχεία του Product
+Backlog.
+
+Η βελτιωτική επεξεργασία του Product Backlog συνίσταται στην προσθήκη λεπτομερειών και
+εκτιμήσεων και στην απόδοση προτεραιότητας στα στοιχεία του Product Backlog. Πρόκειται για
+μια συνεχή διαδικασία κατά την οποία ο Product Owner και η Ομάδα Ανάπτυξης συνεργάζονται
+πάνω στις λεπτομέρειες των στοιχείων του Product Backlog. Κατά τη διάρκεια της βελτιωτικής
+επεξεργασίας του Product Backlog, τα στοιχεία του επιθεωρούνται και αναθεωρούνται. Η
+Ομάδα Scrum αποφασίζει τον τρόπο και τα χρόνο που πραγματοποιείται η βελτιωτική
+επεξεργασία, η οποία συνήθως απασχολεί την Ομάδα Ανάπτυξης για όχι περισσότερο από το
+10% της συνολικής δυναμικότητάς της. Ωστόσο, τα στοιχεία του Product Backlog μπορούν να
+αναθεωρούνται ανά πάσα στιγμή από τον ίδιο τον Product Owner ή με την άδεια του Product
+Owner.
+
+Τα στοιχεία του Product Backlog στην κορυφή της λίστας είναι συνήθως πιο ξεκάθαρα και με
+περισσότερες λεπτομέρειες σε σύγκριση με τα στοιχεία που βρίσκονται χαμηλότερα. Οι
+εκτιμήσεις γίνονται ακριβέστερες καθώς η εικόνα αποσαφηνίζεται περισσότερο και αυξάνει ο
+βαθμός λεπτομέρειας· όσο πιο κάτω στη λίστα, τόσο λιγότερη η λεπτομέρεια. Τα στοιχεία του
+Product Backlog που θα απασχολήσουν την Ομάδα Ανάπτυξης στο επερχόμενο Sprint
+υφίστανται βελτιωτική επεξεργασία, ώστε για το καθένα να θεωρείται εύλογο πως θα είναι
+"Έτοιμο" εντός της διάρκειας του Sprint. Στοιχεία του Product Backlog που μπορούν να γίνουν
+"Έτοιμα" από την Ομάδα Ανάπτυξης εντός ενός Sprint, κρίνονται ως "Έτοιμα για ένταξη” σε
+Sprint. Τα στοιχεία του Product Backlog συνήθως αποκτούν αυτό το βαθμό διαφάνειας μέσω
+της παραπάνω βελτιωτικής επεξεργασίας.
+
+Υπεύθυνη για όλες τις εκτιμήσεις είναι η Ομάδα Ανάπτυξης. Ο Product Owner μπορεί να
+επηρεάσει την Ομάδα Ανάπτυξης βοηθώντας την να κατανοήσει και να κάνει τους
+απαραίτητους συμβιβασμούς, αλλά αυτοί που θα εκτελέσουν τη δουλειά είναι και αυτοί που
+θα κάνουν την τελική εκτίμηση.
+
+Παρακολούθηση της προόδου προς τους Στόχους
+Σε οποιοδήποτε χρονικό σημείο, το συνολικό έργο που εναπομένει μπορεί να αθροιστεί. Ο
+Product Owner παρακολουθεί αυτό το συνολικό υπολειπόμενο έργο τουλάχιστον σε κάθε
+Επισκόπηση του Sprint. Ο Product Owner συγκρίνει αυτόν τον όγκο υπολειπόμενου έργου με
+τον αντίστοιχο από προηγούμενες Επισκοπήσεις, ώστε να αξιολογήσει την πρόοδο προς την
+ολοκλήρωση του προβλεπόμενου έργου στον επιθυμητό χρόνο για τον στόχο. Η πληροφορία
+αυτή γίνεται διαφανής σε όλα τα ενδιαφερόμενα μέρη.
+
+Έχουν χρησιμοποιηθεί διάφορες πρακτικές προβολής με βάση κλίσεις για την πρόβλεψη της
+προόδου, όπως burn-downs, burn-ups, ή σωρευτικές ροές. Αυτές οι πρακτικές έχουν
+αποδειχθεί χρήσιμες. Ωστόσο, δεν υποκαθιστούν τη σημασία του εμπειρισμού. Σε σύνθετα
+περιβάλλοντα, το τι θα γίνει στο μέλλον δεν είναι γνωστό. Μόνο ό,τι έχει ήδη συμβεί μπορεί να
+χρησιμοποιηθεί για τη λήψη αποφάσεων που αφορούν το μέλλον.
+
 Sprint Backlog
-The Sprint Backlog is the set of Product Backlog items selected for the Sprint, plus a plan for delivering the product Increment and realizing the Sprint Goal. The Sprint Backlog is a forecast by the Development Team about what functionality will be in the next Increment and the work needed to deliver that functionality into a "Done" Increment.
-The Sprint Backlog makes visible all of the work that the Development Team identifies as necessary to meet the Sprint Goal.
-The Sprint Backlog is a plan with enough detail that changes in progress can be understood in the Daily Scrum. The Development Team modifies the Sprint Backlog throughout the Sprint, and the Sprint Backlog emerges during the Sprint. This emergence occurs as the Development Team works through the plan and learns more about the work needed to achieve the Sprint Goal.
-As new work is required, the Development Team adds it to the Sprint Backlog. As work is performed or completed, the estimated remaining work is updated. When elements of the plan are deemed unnecessary, they are removed. Only the Development Team can change its Sprint Backlog during a Sprint. The Sprint Backlog is a highly visible, real-time picture of the work that the Development Team plans to accomplish during the Sprint, and it belongs solely to the Development Team.
-Monitoring Sprint Progress
-At any point in time in a Sprint, the total work remaining in the Sprint Backlog can be summed. The Development Team tracks this total work remaining at least for every Daily Scrum to project the likelihood of achieving the Sprint Goal. By tracking the remaining work throughout the Sprint, the Development Team can manage its progress.
-Increment
-The Increment is the sum of all the Product Backlog items completed during a Sprint and the value of the increments of all previous Sprints. At the end of a Sprint, the new Increment must be "Done," which means it must be in useable condition and meet the Scrum Team's definition of "Done." It must be in useable condition regardless of whether the Product Owner decides to actually release it.
-Artifact Transparency
-Scrum relies on transparency. Decisions to optimize value and control risk are made based on the perceived state of the artifacts. To the extent that transparency is complete, these decisions have a sound basis. To the extent that the artifacts are incompletely transparent, these decisions can be flawed, value may diminish and risk may increase.
-The Scrum Master must work with the Product Owner, Development Team, and other involved parties to understand if the artifacts are completely transparent. There are practices for coping with incomplete transparency; the Scrum Master must help everyone apply the most appropriate practices in the absence of complete transparency. A Scrum Master can detect incomplete transparency by inspecting the artifacts, sensing patterns, listening closely to what is being said, and detecting differences between expected and real results.
-The Scrum Master's job is to work with the Scrum Team and the organization to increase the transparency of the artifacts. This work usually involves learning, convincing, and change. Transparency doesn't occur overnight, but is a path.
-Definition of "Done"
-When a Product Backlog item or an Increment is described as "Done", everyone must understand what "Done" means. Although this varies significantly per Scrum Team, members must have a shared understanding of what it means for work to be complete, to ensure transparency. This is the definition of "Done" for the Scrum Team and is used to assess when work is complete on the product Increment.
-The same definition guides the Development Team in knowing how many Product Backlog items it can select during a Sprint Planning. The purpose of each Sprint is to deliver Increments of potentially releasable functionality that adhere to the Scrum Team's current definition of "Done."
-Development Teams deliver an Increment of product functionality every Sprint. This Increment is useable, so a Product Owner may choose to immediately release it. If the definition of "done" for an increment is part of the conventions, standards or guidelines of the development organization, all Scrum Teams must follow it as a minimum. If "done" for an increment is not a convention of the development organization, the Development Team of the Scrum Team must define a definition of "done" appropriate for the product. If there are multiple Scrum Teams working on the system or product release, the development teams on all of the Scrum Teams must mutually define the definition of "Done."
-Each Increment is additive to all prior Increments and thoroughly tested, ensuring that all Increments work together.
-As Scrum Teams mature, it is expected that their definitions of "Done" will expand to include more stringent criteria for higher quality. Any one product or system should have a definition of "Done" that is a standard for any work done on it.
-End Note
-Scrum is free and offered in this Guide. Scrum's roles, artifacts, events, and rules are immutable and although implementing only parts of Scrum is possible, the result is not Scrum. Scrum exists only in its entirety and functions well as a container for other techniques, methodologies, and practices.
-Acknowledgements
-People
-Of the thousands of people who have contributed to Scrum, we should single out those who were instrumental in its first ten years. First there was Jeff Sutherland working with Jeff McKenna, and Ken Schwaber working with Mike Smith and Chris Martin. Many others contributed in the ensuing years and without their help Scrum would not be refined as it is today.
-History
-Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA conference in 1995. This presentation essentially documented the learning that Ken and Jeff gained over the previous few years applying Scrum.
-The history of Scrum is already considered long. To honor the first places where it was tried and refined, we recognize Individual, Inc., Fidelity Investments, and IDX (now GE Medical).
-The Scrum Guide documents Scrum as developed and sustained for 20-plus years by Jeff Sutherland and Ken Schwaber. Other sources provide you with patterns, processes, and insights that complement the Scrum framework. These optimize productivity, value, creativity, and pride.
+
+Το Sprint Backlog είναι το σύνολο από στοιχεία του Product Backlog που έχουν επιλεγεί για το
+Sprint, μαζί με ένα πλάνο για το πώς θα παραδοθεί η Επαύξηση του προϊόντος και θα
+επιτευχθεί ο Στόχος του Sprint. Το Sprint Backlog αποτελεί μία πρόβλεψη από την Ομάδα
+Ανάπτυξης σχετικά με το ποια λειτουργικότητα θα περιληφθεί στην επόμενη Επαύξηση, αλλά
+και ποιες εργασίες είναι απαραίτητες για να παραδοθεί η λειτουργικότητα σε μία "Έτοιμη"
+Επαύξηση.
+
+Το Sprint Backlog αντανακλά όλες τις εργασίες που η Ομάδα Ανάπτυξης θεωρεί αναγκαίες για
+να επιτευχθεί ο Στόχος του Sprint. Για να εξασφαλιστεί η συνεχής βελτίωση, το Sprint Backlog
+περιλαμβάνει τουλάχιστον μια ενέργεια υψηλής προτεραιότητας, στην οποία εργάζεται η
+ομάδα, από το σύνολο των βελτιώσεων που αναγνωρίστηκαν στην προηγούμενη συνάντηση
+Αναδρομής.
+
+Το Sprint Backlog είναι ένα πλάνο με αρκετή λεπτομέρεια ώστε οι μεταβολές της προόδου να
+μπορούν να γίνουν αντιληπτές στο Καθημερινό Scrum. Η Ομάδα Ανάπτυξης τροποποιεί το
+Sprint Backlog κατά την διάρκεια του Sprint, και το Sprint Backlog διαμορφώνεται κατά την
+διάρκεια του Sprint. Η διαμόρφωση αυτή συντελείται καθώς η Ομάδα Ανάπτυξης δουλεύει με
+βάση το πλάνο και μαθαίνει περισσότερα για το έργο που χρειάζεται ώστε να επιτευχθεί ο
+Στόχος του Sprint.
+
+Όταν προκύψει νέο έργο, η Ομάδα Ανάπτυξης το προσθέτει στο Sprint Backlog. Όταν κάποια
+εργασία πραγματοποιείται ή ολοκληρώνεται, ενημερώνεται και το εκτιμώμενο υπολειπόμενο
+έργο. Όταν κάποια από τα στοιχεία του σχεδίου κριθούν περιττά, αυτά αφαιρούνται. Μόνο η
+Ομάδα Ανάπτυξης μπορεί να αλλάξει το Sprint Backlog της, κατά την διάρκεια του Sprint. Το
+Sprint Backlog είναι μία απολύτως ορατή, ενήμερη εικόνα των εργασιών τις οποίες σχεδιάζει να
+ολοκληρώσει η Ομάδα Ανάπτυξης κατά την διάρκεια του Sprint, και ανήκει αποκλειστικά σε
+αυτήν.
+
+Παρακολούθηση της προόδου του Sprint
+Το συνολικό έργο που απομένει στο Sprint Backlog μπορεί να αθροιστεί ανά πάσα στιγμή, κατά
+τη διάρκεια του Sprint. Η Ομάδα Ανάπτυξης παρακολουθεί αυτό το συνολικό υπολειπόμενο
+έργο, τουλάχιστον για το Καθημερινό Scrum ώστε να προβάλει την πιθανότητα επίτευξης του
+Στόχου του Sprint. Με την παρακολούθηση του εναπομείναντος έργου καθ' όλη την διάρκεια
+του Sprint, η Ομάδα Ανάπτυξης μπορεί να διαχειριστεί την πρόοδό της.
+
+Επαύξηση
+
+Η Επαύξηση είναι το άθροισμα όλων των στοιχείων του Product Backlog που ολοκληρώθηκαν
+κατά την διάρκεια ενός Sprint και της αξίας των επαυξήσεων όλων των προηγούμενων Sprints.
+Στο τέλος ενός Sprint, η νέα Επαύξηση πρέπει να είναι "Έτοιμη", με την έννοια ότι πρέπει να
+βρίσκεται σε λειτουργική κατάσταση και να τηρεί τον ορισμό του "Έτοιμου" για την Ομάδα
+Scrum. Πρέπει να βρίσκεται σε λειτουργική κατάσταση ανεξάρτητα του εάν ο Product Owner
+αποφασίσει να την εκδώσει ή όχι. Μια Επαύξηση μπορεί να αποτελείται από περισσότερες από
+μία παραδόσεις που πραγματοποιούνται κατά τη διάρκεια του Sprint.
+
+Διαφάνεια Αντικειμένων
+
+Το Scrum βασίζεται στην διαφάνεια. Οι αποφάσεις που στοχεύουν στη βελτιστοποίηση της
+αξίας και τον έλεγχο του ρίσκου λαμβάνονται με βάση την αντιληπτή κατάσταση των διαφόρων
+αντικειμένων. Στο βαθμό εκείνο που η διαφάνεια είναι πλήρης, οι αποφάσεις έχουν ορθή
+βάση. Στο βαθμό εκείνο που τα στοιχεία δεν είναι πλήρως διαφανή, οι αποφάσεις μπορεί να
+είναι λανθασμένες, η αξία μπορεί να μειωθεί και το ρίσκο να αυξηθεί.
+
+Ο Scrum Master πρέπει να δουλέψει με τον Product Owner, την Ομάδα Ανάπτυξης και τα άλλα
+ενδιαφερόμενα μέρη για να καταλάβει εάν τα αντικείμενα είναι απολύτως διαφανή. Υπάρχουν
+πρακτικές για να αντιμετωπιστεί η μη-πλήρης διαφάνεια· ο Scrum Master πρέπει να βοηθήσει
+όλους να εφαρμόσουν τις πιο κατάλληλες πρακτικές όταν δεν υπάρχει πλήρης διαφάνεια. Ένας
+Scrum Master μπορεί να διακρίνει την έλλειψη διαφάνειας με την επιθεώρηση των
+αντικειμένων, με την παρατήρηση μοτίβων, ακούγοντας προσεκτικά το τι λέγεται και
+διακρίνοντας τις διαφορές μεταξύ προσδοκώμενων και πραγματικών αποτελεσμάτων.
+
+Η δουλειά του Scrum Master είναι να εργαστεί με την Ομάδα Scrum και τον οργανισμό για να
+αυξήσει την διαφάνεια των αντικειμένων του Scrum. Η δουλειά αυτή συνήθως περιλαμβάνει
+μάθηση, πειθώ και αλλαγή. Η διαφάνεια δεν συμβαίνει εν μία νυκτί. Είναι ένα μονοπάτι.
+
+Ορισμός του "Έτοιμου"
+
+Όταν ένα στοιχείο του Product Backlog ή της Επαύξησης χαρακτηρίζεται ως "Έτοιμο", όλοι
+πρέπει να καταλαβαίνουν τι σημαίνει "Έτοιμο". Παρόλο που αυτό μπορεί να διαφέρει
+σημαντικά από ομάδα σε ομάδα, τα μέλη της ίδιας ομάδας πρέπει να κατανοούν με τον ίδιο
+τρόπο το τί σημαίνει η δουλειά να είναι ολοκληρωμένη, ώστε να διασφαλίζεται η διαφάνεια.
+Αυτός είναι ο ορισμός του "Έτοιμου" για την Ομάδα Scrum, και χρησιμοποιείται για να
+αξιολογηθεί το εάν οι εργασίες που εκτελούνται επάνω στην Επαύξηση του προϊόντος έχουν
+ολοκληρωθεί.
+
+Ο ίδιος ορισμός καθοδηγεί την Ομάδα Ανάπτυξης να γνωρίζει πόσα από τα στοιχεία του
+Product Backlog μπορεί να επιλέξει κατά την διάρκεια του Σχεδιασμού του Sprint. Ο σκοπός του
+κάθε Sprint είναι να παραδοθούν επαυξήσεις δυνητικά παραδοτέας λειτουργικότητας, που να
+τηρούν τον τρέχοντα ορισμό του "Έτοιμου" της Ομάδας Scrum.
+Οι Ομάδες Ανάπτυξης παραδίδουν μία Επαύξηση λειτουργικότητας του προϊόντος σε κάθε
+Sprint. Αυτή η Επαύξηση είναι αξιοποιήσιμη, και έτσι ο Product Owner μπορεί να επιλέξει να
+την εκδώσει αμέσως. Εάν ο ορισμός του "Έτοιμου" για μία Επαύξηση είναι μέρος των
+συμβάσεων, των προτύπων και των κατευθυντήριων γραμμών του οργανισμού ανάπτυξης,
+όλες οι Ομάδες Scrum πρέπει να τον ακολουθούν κατ' ελάχιστον.
+Εάν το "Έτοιμο" για μία Επαύξηση δεν αποτελεί σύμβαση για τον οργανισμό ανάπτυξης, η
+Ομάδα Ανάπτυξης θα πρέπει να θεσπίσει έναν ορισμό "Έτοιμου", κατάλληλο για το προϊόν. Εάν
+υπάρχουν πολλαπλές Ομάδες Scrum που δουλεύουν στην έκδοση του συστήματος ή
+προϊόντος, οι Ομάδες Ανάπτυξης σε όλες τις Ομάδες Scrum πρέπει από κοινού να καθορίσουν
+τον ορισμό του "Έτοιμου".
+Η κάθε Επαύξηση είναι επιπρόσθετη σε όλες τις προηγούμενες Επαυξήσεις και λεπτομερώς
+δοκιμασμένη, ώστε να εξασφαλιστεί ότι όλες οι Επαυξήσεις μαζί λειτουργούν.
+Καθώς οι Ομάδες Scrum ωριμάζουν, οι ορισμοί τους για το τι είναι "Έτοιμο" θα επεκταθούν,
+ώστε να συμπεριλάβουν αυστηρότερα κριτήρια, για υψηλότερη ποιότητα. Η εφαρμογή νέων
+ορισμών, μπορεί να αποκαλύψει εργασία που πρέπει να γίνει σε προηγούμενες “Έτοιμες”
+Επαυξήσεις. Το κάθε ένα προϊόν ή σύστημα θα πρέπει να έχει έναν ορισμό "Έτοιμου", το οποίο
+να αποτελεί το πρότυπο για οποιοδήποτε έργο εκτελείται επάνω σε αυτό.
+
+Σημείωμα Τέλους
+
+Το Scrum είναι δωρεάν και προσφέρεται μέσω αυτού του Οδηγού. Οι ρόλοι, τα αντικείμενα, οι
+δραστηριότητες και οι κανόνες είναι αμετάβλητα και παρόλο που είναι δυνατόν να
+υλοποιηθούν κάποια μέρη του Scrum, το αποτέλεσμα δεν θα είναι το Scrum. Το Scrum
+υφίσταται μόνο στην ολότητά του και λειτουργεί καλά ως κέλυφος για άλλες τεχνικές,
+μεθοδολογίες και πρακτικές.
+
+Ευχαριστίες
+
+Άνθρωποι
+
+Από τους χιλιάδες ανθρώπους που έχουν συνεισφέρει στο Scrum, θα έπρεπε να ξεχωρίσουμε
+αυτούς που συνέβαλαν σημαντικά στην αρχή του: ο Jeff Sutherland, που δούλευε με τον Jeff
+McKenna και τον John Scumniotales, και ο Ken Schwaber, που δούλευε με τον Mike Smith και
+τον Chris Martin, και όλοι αυτοί δουλεύοντας μαζί. Πολλοί άλλοι συνέβαλαν τα επόμενα χρόνια
+χωρίς την βοήθεια των οποίων το Scrum δεν θα ήταν τόσο εκλεπτυσμένο όσο είναι σήμερα.
+
+Ιστορία
+
+Ο Ken Schwaber και ο Jeff Sutherland δούλεψαν επάνω στο Scrum μέχρι το 1995 οπότε και το
+συμπαρουσίασαν για πρώτη φορά στο συνέδριο OOPSLA την ίδια χρονιά. Αυτή η παρουσίαση
+ουσιαστικά τεκμηρίωσε την μάθηση που ο Ken και ο Jeff απέκτησαν τα προηγούμενα χρόνια
+και κοινοποίησε τον πρώτο επίσημο ορισμό του Scrum.
+
+Η ιστορία του Scrum περιγράφεται αλλού. Για να τιμήσουμε τα πρώτα μέρη που δοκιμάστηκε
+και βελτιώθηκε, αναγνωρίζουμε τις Individual, Inc., Newspage, Fidelity Investments, and IDX
+(νυν GE Medical).
+
+Ο Οδηγός του Scrum τεκμηριώνει το Scrum όπως αναπτύχθηκε, εξελίχθηκε και συντηρήθηκε
+για πάνω από 20 χρόνια από τον Jeff Sutherland και τον Ken Schwaber. Άλλες πηγές σας
+παρέχουν μοτίβα, διαδικασίες και ιδέες που συμπληρώνουν το πλαίσιο του Scrum. Αυτές
+μπορεί να βελτιστοποιούν την παραγωγικότητα, την αξία, την δημιουργικότητα και την
+ευχαρίστηση με τα αποτελέσματα.
+
+Μετάφραση
+
+Ο οδηγός αυτός μεταφράστηκε από την πρωτότυπη έκδοση στα Αγγλικά, όπως αυτή παρέχεται
+από τους developers που αναφέρονται παραπάνω. Στη μετάφραση συνέβαλαν οι: Δημήτρης
+Δημητρέλος, Γιώργος Σασλής, Βύρων Γεωργαντόπουλος, Βαγγέλης Αντωνιάδης, Νίκος
+Μπάτσιος, Γιάννης Μαυραγάνης, Γιώργος Ψιστάκης, Πέτρος Αθανασόπουλος, Χριστόφορος
+Νικήτας και Τάσος Ιωακείμ.
+
+Αλλαγές στον Οδηγό του Scrum 2017 σε σχέση με αυτόν του 2016
+
+1. Προστέθηκε ενότητα για τις χρήσεις του Scrum:
+   Το Scrum αναπτύχθηκε αρχικά για τη διαχείριση και την ανάπτυξη προϊόντων. Από τις
+   αρχές της δεκαετίας του 1990, το Scrum έχει χρησιμοποιηθεί εκτενώς σε όλο τον κόσμο για:
+
+    a. Την έρευνα και τον προσδιορισμό βιώσιμων αγορών, τεχνολογιών και δυνατοτήτων
+       προϊόντων.
+    b. Την ανάπτυξη προϊόντων και βελτιώσεων.
+    c. Την παράδοση προϊόντων και βελτιώσεων, ακόμα και πολλές φορές την ημέρα.
+    d. Την ανάπτυξη και υποστήριξη του Cloud (online ασφαλές, κατ' απαίτηση) και άλλων
+       επιχειρησιακών περιβαλλόντων για τη χρήση των προϊόντων, και
+    e. Τη συντήρηση και ανανέωση προϊόντων.
+
+    Το Scrum έχει χρησιμοποιηθεί για την ανάπτυξη λογισμικού, υλικού, ενσωματωμένου
+    λογισμικού, δικτύων αλληλεπιδραστικών λειτουργιών, αυτόνομων οχημάτων, για σχολεία,
+    κυβερνητικούς φορείς, μάρκετινγκ, για τη διαχείριση της λειτουργίας οργανισμών και
+    σχεδόν για οτιδήποτε χρησιμοποιούμε στην καθημερινή μας ζωή ως άτομα και κοινωνίες.
+
+    Καθώς οι τεχνολογικές, εμπορικές και περιβαλλοντικές πολυπλοκότητες και οι
+    αλληλεπιδράσεις τους έχουν παρουσιάσει ραγδαία αύξηση, η χρησιμότητα του Scrum στην
+    αντιμετώπιση της πολυπλοκότητας αποδεικνύεται καθημερινά.
+
+    Το Scrum αποδείχθηκε ιδιαίτερα αποτελεσματικό στην επαναληπτική και σταδιακή
+    μεταφορά γνώσης. Το Scrum χρησιμοποιείται πλέον ευρέως για προϊόντα, υπηρεσίες και τη
+    διαχείριση του οργανισμού.
+
+    Η ουσία του Scrum είναι μια μικρή ομάδα ανθρώπων. Η μεμονωμένη ομάδα είναι ιδιαίτερα
+    ευέλικτη και προσαρμοστική. Αυτά τα πλεονεκτήματα συνεχίζουν να υφίστανται σε μία
+    ομάδα, σε μερικές ομάδες ή σε πολλές ομάδες, και σε δίκτυα ομάδων που αναπτύσσουν,
+    παραδίδουν, λειτουργούν και συντηρούν το έργο και τα προϊόντα εργασίας χιλιάδων
+    ανθρώπων. Συνεργάζονται και διαλειτουργούν μέσω εξελιγμένων αρχιτεκτονικών
+    ανάπτυξης και στοχευομένων περιβαλλόντων παράδοσης.
+
+    Όταν οι λέξεις "αναπτύσσω" και "ανάπτυξη" χρησιμοποιούνται στον οδηγό Scrum, αυτές
+    αναφέρονται σε πολύπλοκες εργασίες, συμπεριλαμβανομένων εκείνων των τύπων που
+    αναγνωρίστηκαν παραπάνω.
+
+2. Τροποποιήθηκε η διατύπωση στην ενότητα Ορισμός του Scrum ώστε να τονιστεί
+   περισσότερο ότι το "έργο" μπορεί να περιλαμβάνει πολλούς τύπους προϊόντων.
+
+3. Ενημερώθηκε η γλώσσα σε ολόκληρο τον Οδηγό του Scrum για να αρθεί κάθε αμφιβολία
+   ότι μπορείτε να παραδώσετε πολλές φορές και οποιαδήποτε στιγμή κατά τη διάρκεια ενός
+   Sprint, εφόσον έχετε παραδώσει τουλάχιστον μία δυνητικά παραδοτέα επαύξηση
+   προϊόντος στο Sprint. Για παράδειγμα, στην ενότητα Ομάδα Ανάπτυξης προστέθηκε το εξής:
+
+     a. Δεν υπάρχει όριο στον αριθμό των παραδόσεων που πραγματοποιήθηκαν κατά τη
+        διάρκεια ενός Sprint, εφόσον υπάρχει τουλάχιστον μία δυνητικά παραδοτέα επαύξηση
+        προϊόντος που παραδίδεται.
+
+     b. Προστέθηκε στην ενότητα Το Sprint:
+        Μία ή περισσότερες παραδόσεις μπορούν να πραγματοποιηθούν κατά τη διάρκεια του
+        Sprint για να αποτελέσουν την Επαύξηση προϊόντος.
+
+     c. Προστέθηκε στην ενότητα Επαύξηση:
+        Μια Επαύξηση μπορεί να αποτελείται από περισσότερες από μία παραδόσεις που
+        πραγματοποιούνται κατά τη διάρκεια του Sprint.
+
+4. Τροποποιήθηκε η διατύπωση στην ενότητα "Ο Scrum Master" ώστε να αποσαφηνιστεί
+    περαιτέρω ο ρόλος. Το κείμενο τώρα αναφέρει:
+    Ο Scrum Master είναι υπεύθυνος για την προώθηση και υποστήριξη του Scrum όπως
+    ορίζεται στον Οδηγό του Scrum. Οι Scrum Masters το κάνουν αυτό βοηθώντας τον καθένα
+    να καταλάβει τη θεωρία, τις πρακτικές και τους κανόνες του Scrum.
+
+5. ¨Στην ενότητα υπηρεσία του Scrum Master στον Product Owner προστέθηκε το εξής:
+
+    Εξασφαλίζοντας ότι οι στόχοι, το αντικείμενο των εργασιών και η θεματική περιοχή των
+    προϊόντων γίνονται κατανοητοί από όλα τα μέλη της ομάδας Scrum όσο το δυνατόν
+    καλύτερα.
+
+6. Ενημερώθηκε η πρώτη παράγραφος της ενότητας Καθημερινό Scrum. Τώρα αναφέρει:
+    Το Καθημερινό Scrum είναι μία 15λεπτη χρονο-περιορισμένη δραστηριότητα για την Ομάδα
+    Ανάπτυξης, η οποία ξεκινάει από την πρώτη ημέρα του Sprint. Η Ομάδα Ανάπτυξης
+    σχεδιάζει και επανασχεδιάζει τις εργασίες για τις επόμενες 24 ώρες ώστε να
+    βελτιστοποιήσει τη συνεργασία και την απόδοση της ομάδας. Αυτό γίνεται με την
+    επιθεώρηση της εργασίας από το τελευταίο Καθημερινό Scrum (εκτός από την πρώτη
+    ημέρα), και την πρόβλεψη του έργου που θα μπορούσε να γίνει πριν από την επόμενη. Το
+    Καθημερινό Scrum πραγματοποιείται κάθε μέρα την ίδια ώρα και στο ίδιο μέρος ώστε να
+    μειωθεί η πολυπλοκότητα.
+
+7. Ενημερώθηκε η ενότητα Καθημερινό Scrum για να αποσαφηνίσει τους στόχους του
+    Καθημερινού Scrum, συμπεριλαμβανομένου αυτού του κειμένου:
+    Η δομή της συνάντησης καθορίζεται από την Ομάδα Ανάπτυξης. Αυτή μπορεί να διεξαχθεί
+    με διάφορους τρόπους, εφόσον τα μέλη της ομάδας εστιάζουν στην πρόοδο προς τον Στόχο
+
+    του Sprint. Ορισμένες Ομάδες θα χρησιμοποιούν ερωτήσεις, ενώ άλλες θα βασίζονται
+    περισσότερο σε συζητήσεις. Ακολουθεί ένα παράδειγμα του τι θα μπορούσε να
+    χρησιμοποιηθεί:
+    ◦ Τι έκανα χθες που βοήθησε την Ομάδα Ανάπτυξης να επιτύχει το Στόχο του Sprint;
+    ◦ Τι θα κάνω σήμερα για να βοηθήσω την Ομάδα Ανάπτυξης να επιτύχει το Στόχο του
+      Sprint;
+    ◦ Βλέπω κάποιο εμπόδιο το οποίο αποτρέπει εμένα ή την Ομάδα από την επίτευξη του
+      Στόχου του Sprint;
+
+8. Προστέθηκε σαφήνεια σχετικά με τους χρονο-περιορισμούς με τη χρήση των λέξεων "το
+    πολύ" για να αρθούν τυχόν παρανοήσεις ότι οι Δραστηριότητες πρέπει να είναι
+    συγκεκριμένης διάρκειας· αντιθέτως, είναι τα μέγιστα επιτρεπόμενα χρονικά διαστήματα.
+
+9. Προστέθηκε στην ενότητα Sprint Backlog:
+    Για να διασφαλιστεί η συνεχής βελτίωση, περιλαμβάνει τουλάχιστον μια ενέργεια υψηλής
+    προτεραιότητας, στην οποία εργάζεται η ομάδα, από το σύνολο των βελτιώσεων που
+    αναγνωρίστηκαν στην προηγούμενη συνάντηση Αναδρομής.
